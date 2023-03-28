@@ -5,6 +5,7 @@ from mininet.net import Mininet
 from mininet.link import TCLink
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
+from time import sleep
 
 class dumbbellTopo(Topo):
     "2 backbone routers, 2 access routers, 2 hosts each side."
@@ -32,7 +33,8 @@ class dumbbellTopo(Topo):
         #link speeds (in Mbps)
         msToSec = 1000
         bitsPerPacket = 12000 #a regular 1500byte packet has 1500*8 = 12000 bits
-        conversionFactor = msToSec * bitsPerPacket
+        bitsToMegabits = 0.000001
+        conversionFactor = msToSec * bitsPerPacket * bitsToMegabits
         backBoneSpeed = backBoneSpeedpms * conversionFactor #984Mbps
         accessSpeed = accessSpeedpms * conversionFactor #252Mbps
         srcSpeed = srcSpeedpms * conversionFactor #960Mbps
@@ -43,15 +45,20 @@ class dumbbellTopo(Topo):
         shortDelay = 21
         mediumDelay = 81
         longDelay = 162
+        currentDelay = shortDelay #this can be changed to test different cases
 
         #links
-        self.addLink(backBoneRouter1, backBoneRouter2)
-        self.addLink(accessRouter1, backBoneRouter1)
-        self.addLink(accessRouter2, backBoneRouter2)
-        self.addLink(sourceHost1, accessRouter1)
-        self.addLink(sourceHost2, accessRouter1)
-        self.addLink(receiverHost1, accessRouter2)
-        self.addLink(receiverHost2, accessRouter2)
+        arLinkConfig = dict(bw=accessSpeed, max_queue_size=0.2*accessSpeed*currentDelay)
+        bbLinkConfig = dict(bw=backBoneSpeed, delay=currentDelay)
+        srcLinkConfig = dict(bw=srcSpeed)
+        rcvLinkConfig = dict(bw=rcvSpeed)
+        self.addLink(backBoneRouter1, backBoneRouter2, **bbLinkConfig)
+        self.addLink(accessRouter1, backBoneRouter1, **arLinkConfig)
+        self.addLink(accessRouter2, backBoneRouter2, **arLinkConfig)
+        self.addLink(sourceHost1, accessRouter1, **srcLinkConfig)
+        self.addLink(sourceHost2, accessRouter1, **srcLinkConfig)
+        self.addLink(receiverHost1, accessRouter2, **rcvLinkConfig)
+        self.addLink(receiverHost2, accessRouter2, **rcvLinkConfig)
 
 
 
@@ -64,6 +71,24 @@ def simpleTest():
     dumpNodeConnections(net.hosts)
     print( "Testing network connectivity" )
     net.pingAll()
+
+    source1 = net.get('sH1')
+    receiver1 = net.get('rH1')
+
+    print("starting iperf on receiver 1")
+    receiver1.cmd('iperf -s -p 5566 -i 1 > serverOut.txt &')
+
+    print("starting iperf on source 1")
+    rcv1IP = receiver1.IP()
+    source1.sendCmd(f"iperf -c {rcv1IP} -p 5566 -t 10 > clientOut.txt")
+    
+    print("waiting for outputs...")
+    src1Output = source1.waitOutput()
+    
+    print("killing server...")
+    killResult = receiver1.cmd('kill %iperf')
+    
+    print(f"done with test...killResult ={killResult} ")
     net.stop()
 
 if __name__ == '__main__':
