@@ -20,7 +20,7 @@ def set_tcp_congestion_control(algorithm):
 
 
 class DumbbellTopo(Topo):
-    def build(self):
+    def build(self, pDelay="short"):
         '''2 backbone routers, 2 access routers, 2 hosts each side.'''
 
         # Backbone routers
@@ -44,7 +44,16 @@ class DumbbellTopo(Topo):
 
         # Propagation delays (in ms)
         small, medium, large = 21, 81, 162
-        delay = small  # This can be changed to test different cases
+        delay = small  # This can be changed to test different casesi
+        if pDelay == "short":
+            delay=small
+            print(f'using delay small = {delay}')
+        elif pDelay == "medium":
+            delay=medium
+            print(f'using delay medium = {delay}')
+        elif pDelay== "large":
+            delay=large
+            print(f'using delay large = {delay}')
 
         # Links
         ar_link = dict(bw=a_speed, max_queue_size=0.2 * a_speed * delay)
@@ -61,12 +70,12 @@ class DumbbellTopo(Topo):
         self.addLink(r_h2, a_r2, **r_link)
 
 
-def execute(algo='reno', duration=500, delay=250):
+def execute(algo='reno', duration=500, delay=250, propDelay="short"):
 
     set_tcp_congestion_control(algo)
 
     setLogLevel('info')
-    topo = DumbbellTopo()
+    topo = DumbbellTopo(pDelay=propDelay)
     net = Mininet(topo=topo, link=TCLink)
     net.start()
     dumpNodeConnections(net.hosts)
@@ -109,7 +118,8 @@ if __name__ == '__main__':
     algorithm = 'reno' if len(sys.argv) <= 1 else sys.argv[1]
     duration = 500 if len(sys.argv) <= 2 else int(sys.argv[2])
     delay = 250 if len(sys.argv) <= 3 else int(sys.argv[3])
+    propDelay = 'short' if len(sys.argv) <= 4 else str(sys.argv[4])
 
-    print(f'Using {algorithm} with duration {duration} and delay {delay}')
+    print(f'Using {algorithm} with duration={duration}, delay={delay}, and propagation delay={propDelay}')
 
-    execute(algorithm, duration, delay)
+    execute(algorithm, duration, delay, propDelay)
