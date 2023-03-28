@@ -1,2 +1,3 @@
-# cn-Sp23-mininet
-Repo for mininet project
+# TCP Congestion Control Project using mininet
+Miguel Gomez De Franco & Juan Neri
+UT - Computer Networks - Spring 2023
