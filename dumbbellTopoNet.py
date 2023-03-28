@@ -77,27 +77,31 @@ def simpleTest():
     receiver1 = net.get('rH1')
 
     print("starting iperf3 on receiver 1")
-    receiver1.cmd('nohup iperf3 -s -p 5566 -i 1 > client.txt &')
+    #receiver1.cmd('nohup iperf3 -s -p 5566 -i 1 > client.txt &')
+    receiver1.cmd('nohup iperf3 -s -p 5566 -i 1 > server.txt &')
     # nohup iperf3 -s -p $port > $out.client &
 
-    t = 500
+    #t = 500
+    t = 15
     print("starting iperf3 on source 1")
     rcv1IP = receiver1.IP()
-    source1.sendCmd(f"nohup iperf3 -V -4 -i 1 -f m -d -c {rcv1IP} -p 5566 -t {t} > server.txt")
+    #source1.sendCmd(f"nohup iperf3 -V -4 -i 1 -f m -d -c {rcv1IP} -p 5566 -t {t} > server.txt")
+    source1.cmd(f"nohup iperf3 -c {rcv1IP} -p 5566 -t {t} > client.txt &")
     #  nohup iperf3 -V -4 -i 1 -f m -d -t $time -c $server -p $port > $out.server &
     
     print("waiting for outputs...")
-    src1Output = source1.waitOutput()
+    #src1Output = source1.waitOutput()
+    sleep(t+2) 
     
     print("killing server...")
     killResult = receiver1.cmd('kill %iperf3')
     
-    print(f"done with test...killResult ={killResult} ")
+    print(f"done with test...killResult = {killResult}")
     net.stop()
 
 if __name__ == '__main__':
     # Tell mininet to print useful information
     setLogLevel('info')
     simpleTest()
-    plot_bandwidth('client.txt')
-    plot_congestion('client.txt')
+    #plot_bandwidth('client.txt')
+    #plot_congestion('client.txt')
