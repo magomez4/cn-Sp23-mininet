@@ -6,6 +6,7 @@ from mininet.link import TCLink
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
 from time import sleep
+from plot_output import plot_bandwidth, plot_congestion
 
 class dumbbellTopo(Topo):
     "2 backbone routers, 2 access routers, 2 hosts each side."
@@ -95,3 +96,5 @@ if __name__ == '__main__':
     # Tell mininet to print useful information
     setLogLevel('info')
     simpleTest()
+    plot_bandwidth('serverOut.txt')
+    plot_congestion('serverOut.txt')
