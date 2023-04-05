@@ -76,18 +76,21 @@ def simpleTest():
     source1 = net.get('sH1')
     receiver1 = net.get('rH1')
 
-    print("starting iperf on receiver 1")
-    receiver1.cmd('iperf -s -p 5566 -i 1 > serverOut.txt &')
+    print("starting iperf3 on receiver 1")
+    receiver1.cmd('nohup iperf3 -s -p 5566 -i 1 > client.txt &')
+    # nohup iperf3 -s -p $port > $out.client &
 
-    print("starting iperf on source 1")
+    t = 500
+    print("starting iperf3 on source 1")
     rcv1IP = receiver1.IP()
-    source1.sendCmd(f"iperf -c {rcv1IP} -p 5566 -t 10 > clientOut.txt")
+    source1.sendCmd(f"nohup iperf3 -V -4 -i 1 -f m -d -c {rcv1IP} -p 5566 -t {t} > server.txt")
+    #  nohup iperf3 -V -4 -i 1 -f m -d -t $time -c $server -p $port > $out.server &
     
     print("waiting for outputs...")
     src1Output = source1.waitOutput()
     
     print("killing server...")
-    killResult = receiver1.cmd('kill %iperf')
+    killResult = receiver1.cmd('kill %iperf3')
     
     print(f"done with test...killResult ={killResult} ")
     net.stop()
@@ -96,5 +99,5 @@ if __name__ == '__main__':
     # Tell mininet to print useful information
     setLogLevel('info')
     simpleTest()
-    plot_bandwidth('serverOut.txt')
-    plot_congestion('serverOut.txt')
+    plot_bandwidth('client.txt')
+    plot_congestion('client.txt')
