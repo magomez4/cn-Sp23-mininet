@@ -6,7 +6,6 @@ from mininet.link import TCLink
 from mininet.util import dumpNodeConnections, quietRun
 from mininet.log import setLogLevel
 from time import sleep
-from plot_output import plot_bandwidth, plot_congestion
 
 
 def pms_to_mbps(pms):
