@@ -64,6 +64,7 @@ def plot_congestion(algo):
     df2 = pd.DataFrame(data=s2)
     df2.plot(ax=ax,
              x='interval_end',
+             xlabel='Time in (sec)',
              y='cwnd')
     ax.legend(['h1 to h3', 'h2 to h4'])
     plt.ylim(0)
@@ -85,6 +86,7 @@ def plot_bandwidth(algo):
     df2 = pd.DataFrame(data=s2)
     df2.plot(ax=ax,
              x='interval_end',
+             xlabel='Time in (sec)',
              y='bandwidth')
 
     ax.legend(['h1 to h3', 'h2 to h4'])
