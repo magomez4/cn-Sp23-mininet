@@ -1,1839 +1,210 @@
-iperf 3.7
-Linux mininet-vm 5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020 x86_64
-Control connection MSS 1448
-send_parameters:
-{
-	"tcp":	true,
-	"omit":	0,
-	"time":	150,
-	"parallel":	1,
-	"len":	131072,
-	"pacing_timer":	1000,
-	"client_version":	"3.7"
-}
-Time: Fri, 14 Apr 2023 03:44:30 GMT
 Connecting to host 10.0.0.2, port 2222
-      Cookie: hpjd3haaesewxa5xigu7e6vdm7rqwohlbmhz
-      TCP MSS: 1448 (default)
-SNDBUF is 87380, expecting 0
-RCVBUF is 87380, expecting 0
-Congestion algorithm is reno
-[  7] local 10.0.0.4 port 33242 connected to 10.0.0.2 port 2222
-Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 150 second test, tos 0
-sent 98464 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 0 bytes of 131072, total 98464
-sent 65160 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 0 bytes of 131072, total 163624
-sent 130320 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 0 bytes of 131072, total 293944
-sent 131072 bytes of 131072, total 425016
-sent 35448 bytes of 131072, total 460464
-sent 0 bytes of 131072, total 460464
-sent 0 bytes of 131072, total 460464
-sent 0 bytes of 131072, total 460464
-sent 0 bytes of 131072, total 460464
-sent 0 bytes of 131072, total 460464
-sent 0 bytes of 131072, total 460464
-sent 0 bytes of 131072, total 460464
-sent 0 bytes of 131072, total 460464
-tcpi_snd_cwnd 60 tcpi_snd_mss 1448 tcpi_rtt 37148
-interval_len 1.029344 bytes_transferred 460464
-interval forces keep
+[  7] local 10.0.0.4 port 33562 connected to 10.0.0.2 port 2222
 [ ID] Interval           Transfer     Bitrate         Retr  Cwnd
-[  7]   0.00-1.03   sec   450 KBytes  3.58 Mbits/sec    1   84.8 KBytes       
-sent 131072 bytes of 131072, total 591536
-sent 96264 bytes of 131072, total 687800
-sent 0 bytes of 131072, total 687800
-sent 0 bytes of 131072, total 687800
-sent 0 bytes of 131072, total 687800
-sent 0 bytes of 131072, total 687800
-sent 0 bytes of 131072, total 687800
-sent 0 bytes of 131072, total 687800
-sent 0 bytes of 131072, total 687800
-sent 0 bytes of 131072, total 687800
-tcpi_snd_cwnd 60 tcpi_snd_mss 1448 tcpi_rtt 106131
-interval_len 0.979169 bytes_transferred 227336
-interval forces keep
-[  7]   1.03-2.01   sec   222 KBytes  1.86 Mbits/sec    0   84.8 KBytes       
-sent 131072 bytes of 131072, total 818872
-sent 64408 bytes of 131072, total 883280
-sent 0 bytes of 131072, total 883280
-sent 0 bytes of 131072, total 883280
-sent 0 bytes of 131072, total 883280
-sent 0 bytes of 131072, total 883280
-sent 0 bytes of 131072, total 883280
-sent 0 bytes of 131072, total 883280
-sent 0 bytes of 131072, total 883280
-sent 0 bytes of 131072, total 883280
-tcpi_snd_cwnd 60 tcpi_snd_mss 1448 tcpi_rtt 87239
-interval_len 1.066622 bytes_transferred 195480
-interval forces keep
-[  7]   2.01-3.08   sec   191 KBytes  1.47 Mbits/sec    0   84.8 KBytes       
-tcpi_snd_cwnd 60 tcpi_snd_mss 1448 tcpi_rtt 313222
-interval_len 1.718830 bytes_transferred 0
-interval forces keep
-[  7]   3.08-4.79   sec  0.00 Bytes  0.00 Mbits/sec    0   84.8 KBytes       
-sent 131072 bytes of 131072, total 1014352
-sent 64408 bytes of 131072, total 1078760
-sent 0 bytes of 131072, total 1078760
-sent 0 bytes of 131072, total 1078760
-sent 0 bytes of 131072, total 1078760
-sent 0 bytes of 131072, total 1078760
-sent 0 bytes of 131072, total 1078760
-sent 0 bytes of 131072, total 1078760
-sent 0 bytes of 131072, total 1078760
-sent 0 bytes of 131072, total 1078760
-tcpi_snd_cwnd 60 tcpi_snd_mss 1448 tcpi_rtt 22340
-interval_len 0.531121 bytes_transferred 195480
-interval forces keep
-[  7]   4.79-5.33   sec   191 KBytes  2.94 Mbits/sec    1   84.8 KBytes       
-sent 131072 bytes of 131072, total 1209832
-sent 64408 bytes of 131072, total 1274240
-sent 0 bytes of 131072, total 1274240
-sent 0 bytes of 131072, total 1274240
-sent 0 bytes of 131072, total 1274240
-sent 0 bytes of 131072, total 1274240
-sent 0 bytes of 131072, total 1274240
-sent 0 bytes of 131072, total 1274240
-sent 0 bytes of 131072, total 1274240
-sent 0 bytes of 131072, total 1274240
-sent 131072 bytes of 131072, total 1405312
-sent 64408 bytes of 131072, total 1469720
-sent 0 bytes of 131072, total 1469720
-sent 0 bytes of 131072, total 1469720
-sent 0 bytes of 131072, total 1469720
-sent 0 bytes of 131072, total 1469720
-sent 0 bytes of 131072, total 1469720
-sent 0 bytes of 131072, total 1469720
-sent 0 bytes of 131072, total 1469720
-sent 0 bytes of 131072, total 1469720
-tcpi_snd_cwnd 60 tcpi_snd_mss 1448 tcpi_rtt 25857
-interval_len 0.677664 bytes_transferred 390960
-interval forces keep
-[  7]   5.33-6.00   sec   382 KBytes  4.62 Mbits/sec    0   84.8 KBytes       
-tcpi_snd_cwnd 60 tcpi_snd_mss 1448 tcpi_rtt 46551
-interval_len 1.168465 bytes_transferred 0
-interval forces keep
-[  7]   6.00-7.17   sec  0.00 Bytes  0.00 Mbits/sec    0   84.8 KBytes       
-sent 131072 bytes of 131072, total 1600792
-sent 64408 bytes of 131072, total 1665200
-sent 0 bytes of 131072, total 1665200
-sent 0 bytes of 131072, total 1665200
-sent 0 bytes of 131072, total 1665200
-sent 0 bytes of 131072, total 1665200
-sent 0 bytes of 131072, total 1665200
-sent 0 bytes of 131072, total 1665200
-sent 0 bytes of 131072, total 1665200
-sent 0 bytes of 131072, total 1665200
-sent 131072 bytes of 131072, total 1796272
-sent 129568 bytes of 131072, total 1925840
-sent 0 bytes of 131072, total 1925840
-sent 0 bytes of 131072, total 1925840
-sent 0 bytes of 131072, total 1925840
-sent 0 bytes of 131072, total 1925840
-sent 0 bytes of 131072, total 1925840
-sent 0 bytes of 131072, total 1925840
-sent 0 bytes of 131072, total 1925840
-sent 0 bytes of 131072, total 1925840
-tcpi_snd_cwnd 69 tcpi_snd_mss 1448 tcpi_rtt 17248
-interval_len 0.833010 bytes_transferred 456120
-interval forces keep
-[  7]   7.17-8.00   sec   445 KBytes  4.38 Mbits/sec    0   97.6 KBytes       
-sent 131072 bytes of 131072, total 2056912
-sent 129568 bytes of 131072, total 2186480
-sent 0 bytes of 131072, total 2186480
-sent 0 bytes of 131072, total 2186480
-sent 0 bytes of 131072, total 2186480
-sent 0 bytes of 131072, total 2186480
-sent 0 bytes of 131072, total 2186480
-sent 0 bytes of 131072, total 2186480
-sent 0 bytes of 131072, total 2186480
-sent 0 bytes of 131072, total 2186480
-sent 131072 bytes of 131072, total 2317552
-sent 131072 bytes of 131072, total 2448624
-sent 63656 bytes of 131072, total 2512280
-sent 0 bytes of 131072, total 2512280
-sent 0 bytes of 131072, total 2512280
-sent 0 bytes of 131072, total 2512280
-sent 0 bytes of 131072, total 2512280
-sent 0 bytes of 131072, total 2512280
-sent 0 bytes of 131072, total 2512280
-sent 0 bytes of 131072, total 2512280
-sent 131072 bytes of 131072, total 2643352
-sent 131072 bytes of 131072, total 2774424
-sent 131072 bytes of 131072, total 2905496
-sent 62904 bytes of 131072, total 2968400
-sent 0 bytes of 131072, total 2968400
-sent 0 bytes of 131072, total 2968400
-sent 0 bytes of 131072, total 2968400
-sent 0 bytes of 131072, total 2968400
-sent 0 bytes of 131072, total 2968400
-sent 0 bytes of 131072, total 2968400
-sent 131072 bytes of 131072, total 3099472
-sent 131072 bytes of 131072, total 3230544
-sent 131072 bytes of 131072, total 3361616
-sent 131072 bytes of 131072, total 3492688
-sent 62152 bytes of 131072, total 3554840
-sent 0 bytes of 131072, total 3554840
-sent 0 bytes of 131072, total 3554840
-sent 0 bytes of 131072, total 3554840
-sent 0 bytes of 131072, total 3554840
-sent 0 bytes of 131072, total 3554840
-sent 131072 bytes of 131072, total 3685912
-sent 131072 bytes of 131072, total 3816984
-sent 131072 bytes of 131072, total 3948056
-sent 131072 bytes of 131072, total 4079128
-sent 131072 bytes of 131072, total 4210200
-sent 131072 bytes of 131072, total 4341272
-sent 125808 bytes of 131072, total 4467080
-sent 0 bytes of 131072, total 4467080
-sent 0 bytes of 131072, total 4467080
-sent 0 bytes of 131072, total 4467080
-sent 131072 bytes of 131072, total 4598152
-sent 131072 bytes of 131072, total 4729224
-sent 131072 bytes of 131072, total 4860296
-sent 131072 bytes of 131072, total 4991368
-sent 131072 bytes of 131072, total 5122440
-sent 131072 bytes of 131072, total 5253512
-sent 60648 bytes of 131072, total 5314160
-sent 0 bytes of 131072, total 5314160
-sent 0 bytes of 131072, total 5314160
-sent 0 bytes of 131072, total 5314160
-sent 131072 bytes of 131072, total 5445232
-sent 131072 bytes of 131072, total 5576304
-sent 131072 bytes of 131072, total 5707376
-sent 131072 bytes of 131072, total 5838448
-sent 131072 bytes of 131072, total 5969520
-sent 131072 bytes of 131072, total 6100592
-sent 60648 bytes of 131072, total 6161240
-sent 0 bytes of 131072, total 6161240
-sent 0 bytes of 131072, total 6161240
-sent 0 bytes of 131072, total 6161240
-sent 131072 bytes of 131072, total 6292312
-sent 131072 bytes of 131072, total 6423384
-sent 131072 bytes of 131072, total 6554456
-sent 131072 bytes of 131072, total 6685528
-sent 131072 bytes of 131072, total 6816600
-sent 131072 bytes of 131072, total 6947672
-sent 60648 bytes of 131072, total 7008320
-sent 0 bytes of 131072, total 7008320
-sent 0 bytes of 131072, total 7008320
-sent 0 bytes of 131072, total 7008320
-sent 131072 bytes of 131072, total 7139392
-sent 131072 bytes of 131072, total 7270464
-sent 131072 bytes of 131072, total 7401536
-sent 131072 bytes of 131072, total 7532608
-sent 131072 bytes of 131072, total 7663680
-sent 131072 bytes of 131072, total 7794752
-sent 60648 bytes of 131072, total 7855400
-sent 0 bytes of 131072, total 7855400
-sent 0 bytes of 131072, total 7855400
-sent 0 bytes of 131072, total 7855400
-sent 131072 bytes of 131072, total 7986472
-sent 131072 bytes of 131072, total 8117544
-sent 131072 bytes of 131072, total 8248616
-sent 131072 bytes of 131072, total 8379688
-sent 131072 bytes of 131072, total 8510760
-sent 131072 bytes of 131072, total 8641832
-sent 60648 bytes of 131072, total 8702480
-sent 0 bytes of 131072, total 8702480
-sent 0 bytes of 131072, total 8702480
-sent 0 bytes of 131072, total 8702480
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 19525
-interval_len 1.006766 bytes_transferred 6776640
-interval forces keep
-[  7]   8.00-9.01   sec  6.46 MBytes  53.8 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 8833552
-sent 131072 bytes of 131072, total 8964624
-sent 131072 bytes of 131072, total 9095696
-sent 131072 bytes of 131072, total 9226768
-sent 131072 bytes of 131072, total 9357840
-sent 131072 bytes of 131072, total 9488912
-sent 60648 bytes of 131072, total 9549560
-sent 0 bytes of 131072, total 9549560
-sent 0 bytes of 131072, total 9549560
-sent 0 bytes of 131072, total 9549560
-sent 131072 bytes of 131072, total 9680632
-sent 131072 bytes of 131072, total 9811704
-sent 131072 bytes of 131072, total 9942776
-sent 131072 bytes of 131072, total 10073848
-sent 131072 bytes of 131072, total 10204920
-sent 131072 bytes of 131072, total 10335992
-sent 60648 bytes of 131072, total 10396640
-sent 0 bytes of 131072, total 10396640
-sent 0 bytes of 131072, total 10396640
-sent 0 bytes of 131072, total 10396640
-sent 131072 bytes of 131072, total 10527712
-sent 131072 bytes of 131072, total 10658784
-sent 131072 bytes of 131072, total 10789856
-sent 131072 bytes of 131072, total 10920928
-sent 131072 bytes of 131072, total 11052000
-sent 131072 bytes of 131072, total 11183072
-sent 60648 bytes of 131072, total 11243720
-sent 0 bytes of 131072, total 11243720
-sent 0 bytes of 131072, total 11243720
-sent 0 bytes of 131072, total 11243720
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 48378
-interval_len 1.025430 bytes_transferred 2541240
-interval forces keep
-[  7]   9.01-10.04  sec  2.42 MBytes  19.8 Mbits/sec    0    393 KBytes       
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 155034
-interval_len 1.027239 bytes_transferred 0
-interval forces keep
-[  7]  10.04-11.06  sec  0.00 Bytes  0.00 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 11374792
-sent 131072 bytes of 131072, total 11505864
-sent 131072 bytes of 131072, total 11636936
-sent 131072 bytes of 131072, total 11768008
-sent 131072 bytes of 131072, total 11899080
-sent 131072 bytes of 131072, total 12030152
-sent 60648 bytes of 131072, total 12090800
-sent 0 bytes of 131072, total 12090800
-sent 0 bytes of 131072, total 12090800
-sent 0 bytes of 131072, total 12090800
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 54656
-interval_len 1.019918 bytes_transferred 847080
-interval forces keep
-[  7]  11.06-12.08  sec   827 KBytes  6.64 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 12221872
-sent 131072 bytes of 131072, total 12352944
-sent 131072 bytes of 131072, total 12484016
-sent 131072 bytes of 131072, total 12615088
-sent 131072 bytes of 131072, total 12746160
-sent 131072 bytes of 131072, total 12877232
-sent 60648 bytes of 131072, total 12937880
-sent 0 bytes of 131072, total 12937880
-sent 0 bytes of 131072, total 12937880
-sent 0 bytes of 131072, total 12937880
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 14517
-interval_len 0.918479 bytes_transferred 847080
-interval forces keep
-[  7]  12.08-13.00  sec   827 KBytes  7.38 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 13068952
-sent 131072 bytes of 131072, total 13200024
-sent 131072 bytes of 131072, total 13331096
-sent 131072 bytes of 131072, total 13462168
-sent 131072 bytes of 131072, total 13593240
-sent 131072 bytes of 131072, total 13724312
-sent 125808 bytes of 131072, total 13850120
-sent 0 bytes of 131072, total 13850120
-sent 0 bytes of 131072, total 13850120
-sent 0 bytes of 131072, total 13850120
-sent 131072 bytes of 131072, total 13981192
-sent 131072 bytes of 131072, total 14112264
-sent 131072 bytes of 131072, total 14243336
-sent 131072 bytes of 131072, total 14374408
-sent 131072 bytes of 131072, total 14505480
-sent 131072 bytes of 131072, total 14636552
-sent 60648 bytes of 131072, total 14697200
-sent 0 bytes of 131072, total 14697200
-sent 0 bytes of 131072, total 14697200
-sent 0 bytes of 131072, total 14697200
-sent 131072 bytes of 131072, total 14828272
-sent 131072 bytes of 131072, total 14959344
-sent 131072 bytes of 131072, total 15090416
-sent 131072 bytes of 131072, total 15221488
-sent 131072 bytes of 131072, total 15352560
-sent 131072 bytes of 131072, total 15483632
-sent 60648 bytes of 131072, total 15544280
-sent 0 bytes of 131072, total 15544280
-sent 0 bytes of 131072, total 15544280
-sent 0 bytes of 131072, total 15544280
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 25412
-interval_len 1.010735 bytes_transferred 2606400
-interval forces keep
-[  7]  13.00-14.01  sec  2.49 MBytes  20.6 Mbits/sec    0    393 KBytes       
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 61621
-interval_len 1.347699 bytes_transferred 0
-interval forces keep
-[  7]  14.01-15.36  sec  0.00 Bytes  0.00 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 15675352
-sent 131072 bytes of 131072, total 15806424
-sent 131072 bytes of 131072, total 15937496
-sent 131072 bytes of 131072, total 16068568
-sent 131072 bytes of 131072, total 16199640
-sent 131072 bytes of 131072, total 16330712
-sent 60648 bytes of 131072, total 16391360
-sent 0 bytes of 131072, total 16391360
-sent 0 bytes of 131072, total 16391360
-sent 0 bytes of 131072, total 16391360
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 82994
-interval_len 0.648899 bytes_transferred 847080
-interval forces keep
-[  7]  15.36-16.01  sec   827 KBytes  10.4 Mbits/sec    0    393 KBytes       
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 106136
-interval_len 1.000402 bytes_transferred 0
-interval forces keep
-[  7]  16.01-17.01  sec  0.00 Bytes  0.00 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 16522432
-sent 131072 bytes of 131072, total 16653504
-sent 131072 bytes of 131072, total 16784576
-sent 131072 bytes of 131072, total 16915648
-sent 131072 bytes of 131072, total 17046720
-sent 131072 bytes of 131072, total 17177792
-sent 60648 bytes of 131072, total 17238440
-sent 0 bytes of 131072, total 17238440
-sent 0 bytes of 131072, total 17238440
-sent 0 bytes of 131072, total 17238440
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 103387
-interval_len 1.000771 bytes_transferred 847080
-interval forces keep
-[  7]  17.01-18.01  sec   827 KBytes  6.77 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 17369512
-sent 131072 bytes of 131072, total 17500584
-sent 131072 bytes of 131072, total 17631656
-sent 131072 bytes of 131072, total 17762728
-sent 131072 bytes of 131072, total 17893800
-sent 131072 bytes of 131072, total 18024872
-sent 60648 bytes of 131072, total 18085520
-sent 0 bytes of 131072, total 18085520
-sent 0 bytes of 131072, total 18085520
-sent 0 bytes of 131072, total 18085520
-sent 131072 bytes of 131072, total 18216592
-sent 131072 bytes of 131072, total 18347664
-sent 131072 bytes of 131072, total 18478736
-sent 131072 bytes of 131072, total 18609808
-sent 131072 bytes of 131072, total 18740880
-sent 131072 bytes of 131072, total 18871952
-sent 60648 bytes of 131072, total 18932600
-sent 0 bytes of 131072, total 18932600
-sent 0 bytes of 131072, total 18932600
-sent 0 bytes of 131072, total 18932600
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 131030
-interval_len 0.995330 bytes_transferred 1694160
-interval forces keep
-[  7]  18.01-19.01  sec  1.62 MBytes  13.6 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 19063672
-sent 131072 bytes of 131072, total 19194744
-sent 131072 bytes of 131072, total 19325816
-sent 131072 bytes of 131072, total 19456888
-sent 131072 bytes of 131072, total 19587960
-sent 131072 bytes of 131072, total 19719032
-sent 60648 bytes of 131072, total 19779680
-sent 0 bytes of 131072, total 19779680
-sent 0 bytes of 131072, total 19779680
-sent 0 bytes of 131072, total 19779680
-sent 131072 bytes of 131072, total 19910752
-sent 131072 bytes of 131072, total 20041824
-sent 131072 bytes of 131072, total 20172896
-sent 131072 bytes of 131072, total 20303968
-sent 131072 bytes of 131072, total 20435040
-sent 131072 bytes of 131072, total 20566112
-sent 60648 bytes of 131072, total 20626760
-sent 0 bytes of 131072, total 20626760
-sent 0 bytes of 131072, total 20626760
-sent 0 bytes of 131072, total 20626760
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 46625
-interval_len 0.996254 bytes_transferred 1694160
-interval forces keep
-[  7]  19.01-20.00  sec  1.62 MBytes  13.6 Mbits/sec    0    393 KBytes       
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 64900
-interval_len 1.092758 bytes_transferred 0
-interval forces keep
-[  7]  20.00-21.09  sec  0.00 Bytes  0.00 Mbits/sec    0    393 KBytes       
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 132340
-interval_len 0.906324 bytes_transferred 0
-interval forces keep
-[  7]  21.09-22.00  sec  0.00 Bytes  0.00 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 20757832
-sent 131072 bytes of 131072, total 20888904
-sent 131072 bytes of 131072, total 21019976
-sent 131072 bytes of 131072, total 21151048
-sent 131072 bytes of 131072, total 21282120
-sent 131072 bytes of 131072, total 21413192
-sent 60648 bytes of 131072, total 21473840
-sent 0 bytes of 131072, total 21473840
-sent 0 bytes of 131072, total 21473840
-sent 0 bytes of 131072, total 21473840
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 57850
-interval_len 1.073400 bytes_transferred 847080
-interval forces keep
-[  7]  22.00-23.07  sec   827 KBytes  6.31 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 21604912
-sent 131072 bytes of 131072, total 21735984
-sent 131072 bytes of 131072, total 21867056
-sent 131072 bytes of 131072, total 21998128
-sent 131072 bytes of 131072, total 22129200
-sent 131072 bytes of 131072, total 22260272
-sent 60648 bytes of 131072, total 22320920
-sent 0 bytes of 131072, total 22320920
-sent 0 bytes of 131072, total 22320920
-sent 0 bytes of 131072, total 22320920
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 75296
-interval_len 1.151195 bytes_transferred 847080
-interval forces keep
-[  7]  23.07-24.23  sec   827 KBytes  5.89 Mbits/sec    1    393 KBytes       
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 111281
-interval_len 0.778699 bytes_transferred 0
-interval forces keep
-[  7]  24.23-25.00  sec  0.00 Bytes  0.00 Mbits/sec    0    393 KBytes       
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 68755
-interval_len 1.010700 bytes_transferred 0
-interval forces keep
-[  7]  25.00-26.02  sec  0.00 Bytes  0.00 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 22451992
-sent 131072 bytes of 131072, total 22583064
-sent 131072 bytes of 131072, total 22714136
-sent 131072 bytes of 131072, total 22845208
-sent 131072 bytes of 131072, total 22976280
-sent 131072 bytes of 131072, total 23107352
-sent 60648 bytes of 131072, total 23168000
-sent 0 bytes of 131072, total 23168000
-sent 0 bytes of 131072, total 23168000
-sent 0 bytes of 131072, total 23168000
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 76651
-interval_len 1.012431 bytes_transferred 847080
-interval forces keep
-[  7]  26.02-27.03  sec   827 KBytes  6.69 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 23299072
-sent 131072 bytes of 131072, total 23430144
-sent 131072 bytes of 131072, total 23561216
-sent 131072 bytes of 131072, total 23692288
-sent 131072 bytes of 131072, total 23823360
-sent 131072 bytes of 131072, total 23954432
-sent 60648 bytes of 131072, total 24015080
-sent 0 bytes of 131072, total 24015080
-sent 0 bytes of 131072, total 24015080
-sent 0 bytes of 131072, total 24015080
-tcpi_snd_cwnd 278 tcpi_snd_mss 1448 tcpi_rtt 50491
-interval_len 1.038223 bytes_transferred 847080
-interval forces keep
-[  7]  27.03-28.07  sec   827 KBytes  6.53 Mbits/sec    0    393 KBytes       
-sent 131072 bytes of 131072, total 24146152
-sent 131072 bytes of 131072, total 24277224
-sent 131072 bytes of 131072, total 24408296
-sent 131072 bytes of 131072, total 24539368
-sent 131072 bytes of 131072, total 24670440
-sent 131072 bytes of 131072, total 24801512
-sent 60648 bytes of 131072, total 24862160
-sent 0 bytes of 131072, total 24862160
-sent 0 bytes of 131072, total 24862160
-sent 0 bytes of 131072, total 24862160
-sent 131072 bytes of 131072, total 24993232
-sent 131072 bytes of 131072, total 25124304
-sent 131072 bytes of 131072, total 25255376
-sent 131072 bytes of 131072, total 25386448
-sent 131072 bytes of 131072, total 25517520
-sent 131072 bytes of 131072, total 25648592
-sent 60648 bytes of 131072, total 25709240
-sent 0 bytes of 131072, total 25709240
-sent 0 bytes of 131072, total 25709240
-sent 0 bytes of 131072, total 25709240
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 31530
-interval_len 0.935988 bytes_transferred 1694160
-interval forces keep
-[  7]  28.07-29.00  sec  1.62 MBytes  14.5 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 25840312
-sent 131072 bytes of 131072, total 25971384
-sent 131072 bytes of 131072, total 26102456
-sent 131072 bytes of 131072, total 26233528
-sent 131072 bytes of 131072, total 26364600
-sent 131072 bytes of 131072, total 26495672
-sent 60648 bytes of 131072, total 26556320
-sent 0 bytes of 131072, total 26556320
-sent 0 bytes of 131072, total 26556320
-sent 0 bytes of 131072, total 26556320
-sent 131072 bytes of 131072, total 26687392
-sent 131072 bytes of 131072, total 26818464
-sent 131072 bytes of 131072, total 26949536
-sent 131072 bytes of 131072, total 27080608
-sent 131072 bytes of 131072, total 27211680
-sent 131072 bytes of 131072, total 27342752
-sent 60648 bytes of 131072, total 27403400
-sent 0 bytes of 131072, total 27403400
-sent 0 bytes of 131072, total 27403400
-sent 0 bytes of 131072, total 27403400
-sent 131072 bytes of 131072, total 27534472
-sent 131072 bytes of 131072, total 27665544
-sent 131072 bytes of 131072, total 27796616
-sent 131072 bytes of 131072, total 27927688
-sent 131072 bytes of 131072, total 28058760
-sent 131072 bytes of 131072, total 28189832
-sent 60648 bytes of 131072, total 28250480
-sent 0 bytes of 131072, total 28250480
-sent 0 bytes of 131072, total 28250480
-sent 0 bytes of 131072, total 28250480
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 41008
-interval_len 1.114119 bytes_transferred 2541240
-interval forces keep
-[  7]  29.00-30.12  sec  2.42 MBytes  18.2 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 1 tcpi_snd_mss 1448 tcpi_rtt 79247
-interval_len 1.437390 bytes_transferred 0
-interval forces keep
-[  7]  30.12-31.55  sec  0.00 Bytes  0.00 Mbits/sec    1   1.41 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 31353
-interval_len 0.454727 bytes_transferred 0
-interval forces keep
-[  7]  31.55-32.01  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 28381552
-sent 131072 bytes of 131072, total 28512624
-sent 131072 bytes of 131072, total 28643696
-sent 131072 bytes of 131072, total 28774768
-sent 131072 bytes of 131072, total 28905840
-sent 131072 bytes of 131072, total 29036912
-sent 60648 bytes of 131072, total 29097560
-sent 0 bytes of 131072, total 29097560
-sent 0 bytes of 131072, total 29097560
-sent 0 bytes of 131072, total 29097560
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 72360
-interval_len 0.991963 bytes_transferred 847080
-interval forces keep
-[  7]  32.01-33.00  sec   827 KBytes  6.83 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 29228632
-sent 131072 bytes of 131072, total 29359704
-sent 131072 bytes of 131072, total 29490776
-sent 131072 bytes of 131072, total 29621848
-sent 131072 bytes of 131072, total 29752920
-sent 131072 bytes of 131072, total 29883992
-sent 60648 bytes of 131072, total 29944640
-sent 0 bytes of 131072, total 29944640
-sent 0 bytes of 131072, total 29944640
-sent 0 bytes of 131072, total 29944640
-sent 131072 bytes of 131072, total 30075712
-sent 131072 bytes of 131072, total 30206784
-sent 131072 bytes of 131072, total 30337856
-sent 131072 bytes of 131072, total 30468928
-sent 131072 bytes of 131072, total 30600000
-sent 131072 bytes of 131072, total 30731072
-sent 60648 bytes of 131072, total 30791720
-sent 0 bytes of 131072, total 30791720
-sent 0 bytes of 131072, total 30791720
-sent 0 bytes of 131072, total 30791720
-sent 131072 bytes of 131072, total 30922792
-sent 131072 bytes of 131072, total 31053864
-sent 131072 bytes of 131072, total 31184936
-sent 131072 bytes of 131072, total 31316008
-sent 131072 bytes of 131072, total 31447080
-sent 131072 bytes of 131072, total 31578152
-sent 60648 bytes of 131072, total 31638800
-sent 0 bytes of 131072, total 31638800
-sent 0 bytes of 131072, total 31638800
-sent 0 bytes of 131072, total 31638800
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 24546
-interval_len 1.009801 bytes_transferred 2541240
-interval forces keep
-[  7]  33.00-34.01  sec  2.42 MBytes  20.1 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 31769872
-sent 131072 bytes of 131072, total 31900944
-sent 131072 bytes of 131072, total 32032016
-sent 131072 bytes of 131072, total 32163088
-sent 131072 bytes of 131072, total 32294160
-sent 131072 bytes of 131072, total 32425232
-sent 60648 bytes of 131072, total 32485880
-sent 0 bytes of 131072, total 32485880
-sent 0 bytes of 131072, total 32485880
-sent 0 bytes of 131072, total 32485880
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 96871
-interval_len 1.050804 bytes_transferred 847080
-interval forces keep
-[  7]  34.01-35.06  sec   827 KBytes  6.45 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 283033
-interval_len 1.000041 bytes_transferred 0
-interval forces keep
-[  7]  35.06-36.06  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 295992
-interval_len 1.022494 bytes_transferred 0
-interval forces keep
-[  7]  36.06-37.08  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 83795
-interval_len 1.226035 bytes_transferred 0
-interval forces keep
-[  7]  37.08-38.31  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 32616952
-sent 131072 bytes of 131072, total 32748024
-sent 131072 bytes of 131072, total 32879096
-sent 131072 bytes of 131072, total 33010168
-sent 131072 bytes of 131072, total 33141240
-sent 131072 bytes of 131072, total 33272312
-sent 60648 bytes of 131072, total 33332960
-sent 0 bytes of 131072, total 33332960
-sent 0 bytes of 131072, total 33332960
-sent 0 bytes of 131072, total 33332960
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 112565
-interval_len 1.032519 bytes_transferred 847080
-interval forces keep
-[  7]  38.31-39.34  sec   827 KBytes  6.56 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 318113
-interval_len 1.229968 bytes_transferred 0
-interval forces keep
-[  7]  39.34-40.57  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 33572
-interval_len 0.428669 bytes_transferred 0
-interval forces keep
-[  7]  40.57-41.00  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 47624
-interval_len 1.055364 bytes_transferred 0
-interval forces keep
-[  7]  41.00-42.06  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 33464032
-sent 131072 bytes of 131072, total 33595104
-sent 131072 bytes of 131072, total 33726176
-sent 131072 bytes of 131072, total 33857248
-sent 131072 bytes of 131072, total 33988320
-sent 131072 bytes of 131072, total 34119392
-sent 60648 bytes of 131072, total 34180040
-sent 0 bytes of 131072, total 34180040
-sent 0 bytes of 131072, total 34180040
-sent 0 bytes of 131072, total 34180040
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 251799
-interval_len 0.969114 bytes_transferred 847080
-interval forces keep
-[  7]  42.06-43.02  sec   827 KBytes  6.99 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 135308
-interval_len 1.021407 bytes_transferred 0
-interval forces keep
-[  7]  43.02-44.05  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 193645
-interval_len 1.042750 bytes_transferred 0
-interval forces keep
-[  7]  44.05-45.09  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 135382
-interval_len 0.997349 bytes_transferred 0
-interval forces keep
-[  7]  45.09-46.09  sec  0.00 Bytes  0.00 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 34311112
-sent 131072 bytes of 131072, total 34442184
-sent 131072 bytes of 131072, total 34573256
-sent 131072 bytes of 131072, total 34704328
-sent 131072 bytes of 131072, total 34835400
-sent 131072 bytes of 131072, total 34966472
-sent 60648 bytes of 131072, total 35027120
-sent 0 bytes of 131072, total 35027120
-sent 0 bytes of 131072, total 35027120
-sent 0 bytes of 131072, total 35027120
-sent 131072 bytes of 131072, total 35158192
-sent 131072 bytes of 131072, total 35289264
-sent 131072 bytes of 131072, total 35420336
-sent 131072 bytes of 131072, total 35551408
-sent 131072 bytes of 131072, total 35682480
-sent 131072 bytes of 131072, total 35813552
-sent 125808 bytes of 131072, total 35939360
-sent 0 bytes of 131072, total 35939360
-sent 0 bytes of 131072, total 35939360
-sent 0 bytes of 131072, total 35939360
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 65349
-interval_len 0.927478 bytes_transferred 1759320
-interval forces keep
-[  7]  46.09-47.01  sec  1.68 MBytes  15.2 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 36070432
-sent 131072 bytes of 131072, total 36201504
-sent 131072 bytes of 131072, total 36332576
-sent 131072 bytes of 131072, total 36463648
-sent 131072 bytes of 131072, total 36594720
-sent 131072 bytes of 131072, total 36725792
-sent 60648 bytes of 131072, total 36786440
-sent 0 bytes of 131072, total 36786440
-sent 0 bytes of 131072, total 36786440
-sent 0 bytes of 131072, total 36786440
-sent 131072 bytes of 131072, total 36917512
-sent 131072 bytes of 131072, total 37048584
-sent 131072 bytes of 131072, total 37179656
-sent 131072 bytes of 131072, total 37310728
-sent 131072 bytes of 131072, total 37441800
-sent 131072 bytes of 131072, total 37572872
-sent 125808 bytes of 131072, total 37698680
-sent 0 bytes of 131072, total 37698680
-sent 0 bytes of 131072, total 37698680
-sent 0 bytes of 131072, total 37698680
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 88075
-interval_len 0.986295 bytes_transferred 1759320
-interval forces keep
-[  7]  47.01-48.00  sec  1.68 MBytes  14.3 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 37829752
-sent 131072 bytes of 131072, total 37960824
-sent 131072 bytes of 131072, total 38091896
-sent 131072 bytes of 131072, total 38222968
-sent 131072 bytes of 131072, total 38354040
-sent 131072 bytes of 131072, total 38485112
-sent 60648 bytes of 131072, total 38545760
-sent 0 bytes of 131072, total 38545760
-sent 0 bytes of 131072, total 38545760
-sent 0 bytes of 131072, total 38545760
-sent 131072 bytes of 131072, total 38676832
-sent 131072 bytes of 131072, total 38807904
-sent 131072 bytes of 131072, total 38938976
-sent 131072 bytes of 131072, total 39070048
-sent 131072 bytes of 131072, total 39201120
-sent 131072 bytes of 131072, total 39332192
-sent 60648 bytes of 131072, total 39392840
-sent 0 bytes of 131072, total 39392840
-sent 0 bytes of 131072, total 39392840
-sent 0 bytes of 131072, total 39392840
-sent 131072 bytes of 131072, total 39523912
-sent 131072 bytes of 131072, total 39654984
-sent 131072 bytes of 131072, total 39786056
-sent 131072 bytes of 131072, total 39917128
-sent 131072 bytes of 131072, total 40048200
-sent 131072 bytes of 131072, total 40179272
-sent 60648 bytes of 131072, total 40239920
-sent 0 bytes of 131072, total 40239920
-sent 0 bytes of 131072, total 40239920
-sent 0 bytes of 131072, total 40239920
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 65893
-interval_len 1.001420 bytes_transferred 2541240
-interval forces keep
-[  7]  48.00-49.00  sec  2.42 MBytes  20.3 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 40370992
-sent 131072 bytes of 131072, total 40502064
-sent 131072 bytes of 131072, total 40633136
-sent 131072 bytes of 131072, total 40764208
-sent 131072 bytes of 131072, total 40895280
-sent 131072 bytes of 131072, total 41026352
-sent 60648 bytes of 131072, total 41087000
-sent 0 bytes of 131072, total 41087000
-sent 0 bytes of 131072, total 41087000
-sent 0 bytes of 131072, total 41087000
-sent 131072 bytes of 131072, total 41218072
-sent 131072 bytes of 131072, total 41349144
-sent 131072 bytes of 131072, total 41480216
-sent 131072 bytes of 131072, total 41611288
-sent 131072 bytes of 131072, total 41742360
-sent 131072 bytes of 131072, total 41873432
-sent 60648 bytes of 131072, total 41934080
-sent 0 bytes of 131072, total 41934080
-sent 0 bytes of 131072, total 41934080
-sent 0 bytes of 131072, total 41934080
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 72025
-interval_len 1.003213 bytes_transferred 1694160
-interval forces keep
-[  7]  49.00-50.00  sec  1.62 MBytes  13.5 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 42065152
-sent 131072 bytes of 131072, total 42196224
-sent 131072 bytes of 131072, total 42327296
-sent 131072 bytes of 131072, total 42458368
-sent 131072 bytes of 131072, total 42589440
-sent 131072 bytes of 131072, total 42720512
-sent 60648 bytes of 131072, total 42781160
-sent 0 bytes of 131072, total 42781160
-sent 0 bytes of 131072, total 42781160
-sent 0 bytes of 131072, total 42781160
-sent 131072 bytes of 131072, total 42912232
-sent 131072 bytes of 131072, total 43043304
-sent 131072 bytes of 131072, total 43174376
-sent 131072 bytes of 131072, total 43305448
-sent 131072 bytes of 131072, total 43436520
-sent 131072 bytes of 131072, total 43567592
-sent 60648 bytes of 131072, total 43628240
-sent 0 bytes of 131072, total 43628240
-sent 0 bytes of 131072, total 43628240
-sent 0 bytes of 131072, total 43628240
-tcpi_snd_cwnd 285 tcpi_snd_mss 1448 tcpi_rtt 24772
-interval_len 0.996143 bytes_transferred 1694160
-interval forces keep
-[  7]  50.00-51.00  sec  1.62 MBytes  13.6 Mbits/sec    0    403 KBytes       
-sent 131072 bytes of 131072, total 43759312
-sent 131072 bytes of 131072, total 43890384
-sent 131072 bytes of 131072, total 44021456
-sent 131072 bytes of 131072, total 44152528
-sent 131072 bytes of 131072, total 44283600
-sent 131072 bytes of 131072, total 44414672
-sent 131072 bytes of 131072, total 44545744
-sent 59896 bytes of 131072, total 44605640
-sent 0 bytes of 131072, total 44605640
-sent 0 bytes of 131072, total 44605640
-sent 131072 bytes of 131072, total 44736712
-sent 131072 bytes of 131072, total 44867784
-sent 131072 bytes of 131072, total 44998856
-sent 131072 bytes of 131072, total 45129928
-sent 131072 bytes of 131072, total 45261000
-sent 131072 bytes of 131072, total 45392072
-sent 125808 bytes of 131072, total 45517880
-sent 0 bytes of 131072, total 45517880
-sent 0 bytes of 131072, total 45517880
-sent 0 bytes of 131072, total 45517880
-tcpi_snd_cwnd 317 tcpi_snd_mss 1448 tcpi_rtt 54987
-interval_len 1.003817 bytes_transferred 1889640
-interval forces keep
-[  7]  51.00-52.00  sec  1.80 MBytes  15.1 Mbits/sec    0    448 KBytes       
-sent 131072 bytes of 131072, total 45648952
-sent 131072 bytes of 131072, total 45780024
-sent 131072 bytes of 131072, total 45911096
-sent 131072 bytes of 131072, total 46042168
-sent 131072 bytes of 131072, total 46173240
-sent 131072 bytes of 131072, total 46304312
-sent 125808 bytes of 131072, total 46430120
-sent 0 bytes of 131072, total 46430120
-sent 0 bytes of 131072, total 46430120
-sent 0 bytes of 131072, total 46430120
-tcpi_snd_cwnd 361 tcpi_snd_mss 1448 tcpi_rtt 38774
-interval_len 0.999211 bytes_transferred 912240
-interval forces keep
-[  7]  52.00-53.00  sec   891 KBytes  7.30 Mbits/sec    0    510 KBytes       
-sent 131072 bytes of 131072, total 46561192
-sent 131072 bytes of 131072, total 46692264
-sent 131072 bytes of 131072, total 46823336
-sent 131072 bytes of 131072, total 46954408
-sent 131072 bytes of 131072, total 47085480
-sent 131072 bytes of 131072, total 47216552
-sent 131072 bytes of 131072, total 47347624
-sent 125056 bytes of 131072, total 47472680
-sent 0 bytes of 131072, total 47472680
-sent 0 bytes of 131072, total 47472680
-tcpi_snd_cwnd 361 tcpi_snd_mss 1448 tcpi_rtt 193181
-interval_len 1.074462 bytes_transferred 1042560
-interval forces keep
-[  7]  53.00-54.08  sec  1018 KBytes  7.76 Mbits/sec    0    510 KBytes       
-sent 131072 bytes of 131072, total 47603752
-sent 131072 bytes of 131072, total 47734824
-sent 131072 bytes of 131072, total 47865896
-sent 131072 bytes of 131072, total 47996968
-sent 131072 bytes of 131072, total 48128040
-sent 131072 bytes of 131072, total 48259112
-sent 131072 bytes of 131072, total 48390184
-sent 131072 bytes of 131072, total 48521256
-sent 124304 bytes of 131072, total 48645560
-sent 0 bytes of 131072, total 48645560
-sent 131072 bytes of 131072, total 48776632
-sent 131072 bytes of 131072, total 48907704
-sent 131072 bytes of 131072, total 49038776
-sent 131072 bytes of 131072, total 49169848
-sent 131072 bytes of 131072, total 49300920
-sent 131072 bytes of 131072, total 49431992
-sent 131072 bytes of 131072, total 49563064
-sent 131072 bytes of 131072, total 49694136
-sent 131072 bytes of 131072, total 49825208
-sent 131072 bytes of 131072, total 49956280
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 216345
-interval_len 0.924370 bytes_transferred 2483600
-interval forces keep
-[  7]  54.08-55.00  sec  2.37 MBytes  21.5 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 124829
-interval_len 1.124501 bytes_transferred 0
-interval forces keep
-[  7]  55.00-56.13  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 881693
-interval_len 1.023955 bytes_transferred 0
-interval forces keep
-[  7]  56.13-57.15  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 50087352
-sent 131072 bytes of 131072, total 50218424
-sent 131072 bytes of 131072, total 50349496
-sent 131072 bytes of 131072, total 50480568
-sent 131072 bytes of 131072, total 50611640
-sent 131072 bytes of 131072, total 50742712
-sent 131072 bytes of 131072, total 50873784
-sent 131072 bytes of 131072, total 51004856
-sent 131072 bytes of 131072, total 51135928
-sent 131072 bytes of 131072, total 51267000
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 198141
-interval_len 1.024359 bytes_transferred 1310720
-interval forces keep
-[  7]  57.15-58.18  sec  1.25 MBytes  10.2 Mbits/sec    2    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 197310
-interval_len 0.826981 bytes_transferred 0
-interval forces keep
-[  7]  58.18-59.00  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 51398072
-sent 131072 bytes of 131072, total 51529144
-sent 131072 bytes of 131072, total 51660216
-sent 131072 bytes of 131072, total 51791288
-sent 131072 bytes of 131072, total 51922360
-sent 131072 bytes of 131072, total 52053432
-sent 131072 bytes of 131072, total 52184504
-sent 131072 bytes of 131072, total 52315576
-sent 131072 bytes of 131072, total 52446648
-sent 131072 bytes of 131072, total 52577720
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 71636
-interval_len 0.999641 bytes_transferred 1310720
-interval forces keep
-[  7]  59.00-60.00  sec  1.25 MBytes  10.5 Mbits/sec    8    718 KBytes       
-sent 131072 bytes of 131072, total 52708792
-sent 131072 bytes of 131072, total 52839864
-sent 131072 bytes of 131072, total 52970936
-sent 131072 bytes of 131072, total 53102008
-sent 131072 bytes of 131072, total 53233080
-sent 131072 bytes of 131072, total 53364152
-sent 131072 bytes of 131072, total 53495224
-sent 131072 bytes of 131072, total 53626296
-sent 131072 bytes of 131072, total 53757368
-sent 131072 bytes of 131072, total 53888440
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 125844
-interval_len 1.042926 bytes_transferred 1310720
-interval forces keep
-[  7]  60.00-61.05  sec  1.25 MBytes  10.1 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 72384
-interval_len 0.964912 bytes_transferred 0
-interval forces keep
-[  7]  61.05-62.01  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 54019512
-sent 131072 bytes of 131072, total 54150584
-sent 131072 bytes of 131072, total 54281656
-sent 131072 bytes of 131072, total 54412728
-sent 131072 bytes of 131072, total 54543800
-sent 131072 bytes of 131072, total 54674872
-sent 131072 bytes of 131072, total 54805944
-sent 131072 bytes of 131072, total 54937016
-sent 131072 bytes of 131072, total 55068088
-sent 131072 bytes of 131072, total 55199160
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 92920
-interval_len 0.993767 bytes_transferred 1310720
-interval forces keep
-[  7]  62.01-63.00  sec  1.25 MBytes  10.6 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 55330232
-sent 131072 bytes of 131072, total 55461304
-sent 131072 bytes of 131072, total 55592376
-sent 131072 bytes of 131072, total 55723448
-sent 131072 bytes of 131072, total 55854520
-sent 131072 bytes of 131072, total 55985592
-sent 131072 bytes of 131072, total 56116664
-sent 131072 bytes of 131072, total 56247736
-sent 131072 bytes of 131072, total 56378808
-sent 131072 bytes of 131072, total 56509880
-sent 131072 bytes of 131072, total 56640952
-sent 131072 bytes of 131072, total 56772024
-sent 131072 bytes of 131072, total 56903096
-sent 131072 bytes of 131072, total 57034168
-sent 131072 bytes of 131072, total 57165240
-sent 131072 bytes of 131072, total 57296312
-sent 131072 bytes of 131072, total 57427384
-sent 131072 bytes of 131072, total 57558456
-sent 131072 bytes of 131072, total 57689528
-sent 131072 bytes of 131072, total 57820600
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 27734
-interval_len 1.112670 bytes_transferred 2621440
-interval forces keep
-[  7]  63.00-64.12  sec  2.50 MBytes  18.8 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 57951672
-sent 131072 bytes of 131072, total 58082744
-sent 131072 bytes of 131072, total 58213816
-sent 131072 bytes of 131072, total 58344888
-sent 131072 bytes of 131072, total 58475960
-sent 131072 bytes of 131072, total 58607032
-sent 131072 bytes of 131072, total 58738104
-sent 131072 bytes of 131072, total 58869176
-sent 131072 bytes of 131072, total 59000248
-sent 131072 bytes of 131072, total 59131320
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 57741
-interval_len 0.885237 bytes_transferred 1310720
-interval forces keep
-[  7]  64.12-65.00  sec  1.25 MBytes  11.8 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 59262392
-sent 131072 bytes of 131072, total 59393464
-sent 131072 bytes of 131072, total 59524536
-sent 131072 bytes of 131072, total 59655608
-sent 131072 bytes of 131072, total 59786680
-sent 131072 bytes of 131072, total 59917752
-sent 131072 bytes of 131072, total 60048824
-sent 131072 bytes of 131072, total 60179896
-sent 131072 bytes of 131072, total 60310968
-sent 131072 bytes of 131072, total 60442040
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 60682
-interval_len 1.003925 bytes_transferred 1310720
-interval forces keep
-[  7]  65.00-66.01  sec  1.25 MBytes  10.4 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 60573112
-sent 131072 bytes of 131072, total 60704184
-sent 131072 bytes of 131072, total 60835256
-sent 131072 bytes of 131072, total 60966328
-sent 131072 bytes of 131072, total 61097400
-sent 131072 bytes of 131072, total 61228472
-sent 131072 bytes of 131072, total 61359544
-sent 131072 bytes of 131072, total 61490616
-sent 131072 bytes of 131072, total 61621688
-sent 131072 bytes of 131072, total 61752760
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 218769
-interval_len 0.999683 bytes_transferred 1310720
-interval forces keep
-[  7]  66.01-67.01  sec  1.25 MBytes  10.5 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 138920
-interval_len 1.003209 bytes_transferred 0
-interval forces keep
-[  7]  67.01-68.01  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 61883832
-sent 131072 bytes of 131072, total 62014904
-sent 131072 bytes of 131072, total 62145976
-sent 131072 bytes of 131072, total 62277048
-sent 131072 bytes of 131072, total 62408120
-sent 131072 bytes of 131072, total 62539192
-sent 131072 bytes of 131072, total 62670264
-sent 131072 bytes of 131072, total 62801336
-sent 131072 bytes of 131072, total 62932408
-sent 131072 bytes of 131072, total 63063480
-sent 131072 bytes of 131072, total 63194552
-sent 131072 bytes of 131072, total 63325624
-sent 131072 bytes of 131072, total 63456696
-sent 131072 bytes of 131072, total 63587768
-sent 131072 bytes of 131072, total 63718840
-sent 131072 bytes of 131072, total 63849912
-sent 131072 bytes of 131072, total 63980984
-sent 131072 bytes of 131072, total 64112056
-sent 131072 bytes of 131072, total 64243128
-sent 131072 bytes of 131072, total 64374200
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 49203
-interval_len 0.997223 bytes_transferred 2621440
-interval forces keep
-[  7]  68.01-69.01  sec  2.50 MBytes  21.0 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 64505272
-sent 131072 bytes of 131072, total 64636344
-sent 131072 bytes of 131072, total 64767416
-sent 131072 bytes of 131072, total 64898488
-sent 131072 bytes of 131072, total 65029560
-sent 131072 bytes of 131072, total 65160632
-sent 131072 bytes of 131072, total 65291704
-sent 131072 bytes of 131072, total 65422776
-sent 131072 bytes of 131072, total 65553848
-sent 131072 bytes of 131072, total 65684920
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 79512
-interval_len 1.003959 bytes_transferred 1310720
-interval forces keep
-[  7]  69.01-70.01  sec  1.25 MBytes  10.4 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 124394
-interval_len 1.069502 bytes_transferred 0
-interval forces keep
-[  7]  70.01-71.08  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 65815992
-sent 131072 bytes of 131072, total 65947064
-sent 131072 bytes of 131072, total 66078136
-sent 131072 bytes of 131072, total 66209208
-sent 131072 bytes of 131072, total 66340280
-sent 131072 bytes of 131072, total 66471352
-sent 131072 bytes of 131072, total 66602424
-sent 131072 bytes of 131072, total 66733496
-sent 131072 bytes of 131072, total 66864568
-sent 131072 bytes of 131072, total 66995640
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 85176
-interval_len 1.022318 bytes_transferred 1310720
-interval forces keep
-[  7]  71.08-72.10  sec  1.25 MBytes  10.3 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 79285
-interval_len 1.023572 bytes_transferred 0
-interval forces keep
-[  7]  72.10-73.13  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 67126712
-sent 131072 bytes of 131072, total 67257784
-sent 131072 bytes of 131072, total 67388856
-sent 131072 bytes of 131072, total 67519928
-sent 131072 bytes of 131072, total 67651000
-sent 131072 bytes of 131072, total 67782072
-sent 131072 bytes of 131072, total 67913144
-sent 131072 bytes of 131072, total 68044216
-sent 131072 bytes of 131072, total 68175288
-sent 131072 bytes of 131072, total 68306360
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 33184
-interval_len 1.036808 bytes_transferred 1310720
-interval forces keep
-[  7]  73.13-74.16  sec  1.25 MBytes  10.1 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 328026
-interval_len 0.847311 bytes_transferred 0
-interval forces keep
-[  7]  74.16-75.01  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 68437432
-sent 131072 bytes of 131072, total 68568504
-sent 131072 bytes of 131072, total 68699576
-sent 131072 bytes of 131072, total 68830648
-sent 131072 bytes of 131072, total 68961720
-sent 131072 bytes of 131072, total 69092792
-sent 131072 bytes of 131072, total 69223864
-sent 131072 bytes of 131072, total 69354936
-sent 131072 bytes of 131072, total 69486008
-sent 131072 bytes of 131072, total 69617080
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 192152
-interval_len 0.993625 bytes_transferred 1310720
-interval forces keep
-[  7]  75.01-76.00  sec  1.25 MBytes  10.6 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 109659
-interval_len 1.004018 bytes_transferred 0
-interval forces keep
-[  7]  76.00-77.01  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 69748152
-sent 131072 bytes of 131072, total 69879224
-sent 131072 bytes of 131072, total 70010296
-sent 131072 bytes of 131072, total 70141368
-sent 131072 bytes of 131072, total 70272440
-sent 131072 bytes of 131072, total 70403512
-sent 131072 bytes of 131072, total 70534584
-sent 131072 bytes of 131072, total 70665656
-sent 131072 bytes of 131072, total 70796728
-sent 131072 bytes of 131072, total 70927800
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 102420
-interval_len 1.033645 bytes_transferred 1310720
-interval forces keep
-[  7]  77.01-78.04  sec  1.25 MBytes  10.1 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 71058872
-sent 131072 bytes of 131072, total 71189944
-sent 131072 bytes of 131072, total 71321016
-sent 131072 bytes of 131072, total 71452088
-sent 131072 bytes of 131072, total 71583160
-sent 131072 bytes of 131072, total 71714232
-sent 131072 bytes of 131072, total 71845304
-sent 131072 bytes of 131072, total 71976376
-sent 131072 bytes of 131072, total 72107448
-sent 131072 bytes of 131072, total 72238520
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 34010
-interval_len 1.025078 bytes_transferred 1310720
-interval forces keep
-[  7]  78.04-79.07  sec  1.25 MBytes  10.2 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 72369592
-sent 131072 bytes of 131072, total 72500664
-sent 131072 bytes of 131072, total 72631736
-sent 131072 bytes of 131072, total 72762808
-sent 131072 bytes of 131072, total 72893880
-sent 131072 bytes of 131072, total 73024952
-sent 131072 bytes of 131072, total 73156024
-sent 131072 bytes of 131072, total 73287096
-sent 131072 bytes of 131072, total 73418168
-sent 131072 bytes of 131072, total 73549240
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 107514
-interval_len 1.022941 bytes_transferred 1310720
-interval forces keep
-[  7]  79.07-80.09  sec  1.25 MBytes  10.3 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 145350
-interval_len 0.913801 bytes_transferred 0
-interval forces keep
-[  7]  80.09-81.00  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 73680312
-sent 131072 bytes of 131072, total 73811384
-sent 131072 bytes of 131072, total 73942456
-sent 131072 bytes of 131072, total 74073528
-sent 131072 bytes of 131072, total 74204600
-sent 131072 bytes of 131072, total 74335672
-sent 131072 bytes of 131072, total 74466744
-sent 131072 bytes of 131072, total 74597816
-sent 131072 bytes of 131072, total 74728888
-sent 131072 bytes of 131072, total 74859960
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 403436
-interval_len 1.134207 bytes_transferred 1310720
-interval forces keep
-[  7]  81.00-82.14  sec  1.25 MBytes  9.25 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 142951
-interval_len 1.024542 bytes_transferred 0
-interval forces keep
-[  7]  82.14-83.16  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 231039
-interval_len 1.026007 bytes_transferred 0
-interval forces keep
-[  7]  83.16-84.19  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 74991032
-sent 131072 bytes of 131072, total 75122104
-sent 131072 bytes of 131072, total 75253176
-sent 131072 bytes of 131072, total 75384248
-sent 131072 bytes of 131072, total 75515320
-sent 131072 bytes of 131072, total 75646392
-sent 131072 bytes of 131072, total 75777464
-sent 131072 bytes of 131072, total 75908536
-sent 131072 bytes of 131072, total 76039608
-sent 131072 bytes of 131072, total 76170680
-sent 131072 bytes of 131072, total 76301752
-sent 131072 bytes of 131072, total 76432824
-sent 131072 bytes of 131072, total 76563896
-sent 131072 bytes of 131072, total 76694968
-sent 131072 bytes of 131072, total 76826040
-sent 131072 bytes of 131072, total 76957112
-sent 131072 bytes of 131072, total 77088184
-sent 131072 bytes of 131072, total 77219256
-sent 131072 bytes of 131072, total 77350328
-sent 131072 bytes of 131072, total 77481400
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 149149
-interval_len 0.817018 bytes_transferred 2621440
-interval forces keep
-[  7]  84.19-85.00  sec  2.50 MBytes  25.7 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 153962
-interval_len 0.997612 bytes_transferred 0
-interval forces keep
-[  7]  85.00-86.00  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 249008
-interval_len 1.051026 bytes_transferred 0
-interval forces keep
-[  7]  86.00-87.05  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 183649
-interval_len 1.025048 bytes_transferred 0
-interval forces keep
-[  7]  87.05-88.08  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 219660
-interval_len 0.925569 bytes_transferred 0
-interval forces keep
-[  7]  88.08-89.00  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 77612472
-sent 131072 bytes of 131072, total 77743544
-sent 131072 bytes of 131072, total 77874616
-sent 131072 bytes of 131072, total 78005688
-sent 131072 bytes of 131072, total 78136760
-sent 131072 bytes of 131072, total 78267832
-sent 131072 bytes of 131072, total 78398904
-sent 131072 bytes of 131072, total 78529976
-sent 131072 bytes of 131072, total 78661048
-sent 131072 bytes of 131072, total 78792120
-sent 131072 bytes of 131072, total 78923192
-sent 131072 bytes of 131072, total 79054264
-sent 131072 bytes of 131072, total 79185336
-sent 131072 bytes of 131072, total 79316408
-sent 131072 bytes of 131072, total 79447480
-sent 131072 bytes of 131072, total 79578552
-sent 131072 bytes of 131072, total 79709624
-sent 131072 bytes of 131072, total 79840696
-sent 131072 bytes of 131072, total 79971768
-sent 131072 bytes of 131072, total 80102840
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 83166
-interval_len 1.122702 bytes_transferred 2621440
-interval forces keep
-[  7]  89.00-90.13  sec  2.50 MBytes  18.7 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 138790
-interval_len 0.875023 bytes_transferred 0
-interval forces keep
-[  7]  90.13-91.00  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 80233912
-sent 131072 bytes of 131072, total 80364984
-sent 131072 bytes of 131072, total 80496056
-sent 131072 bytes of 131072, total 80627128
-sent 131072 bytes of 131072, total 80758200
-sent 131072 bytes of 131072, total 80889272
-sent 131072 bytes of 131072, total 81020344
-sent 131072 bytes of 131072, total 81151416
-sent 131072 bytes of 131072, total 81282488
-sent 131072 bytes of 131072, total 81413560
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 140618
-interval_len 1.003954 bytes_transferred 1310720
-interval forces keep
-[  7]  91.00-92.01  sec  1.25 MBytes  10.4 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 81544632
-sent 131072 bytes of 131072, total 81675704
-sent 131072 bytes of 131072, total 81806776
-sent 131072 bytes of 131072, total 81937848
-sent 131072 bytes of 131072, total 82068920
-sent 131072 bytes of 131072, total 82199992
-sent 131072 bytes of 131072, total 82331064
-sent 131072 bytes of 131072, total 82462136
-sent 131072 bytes of 131072, total 82593208
-sent 131072 bytes of 131072, total 82724280
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 183982
-interval_len 1.003908 bytes_transferred 1310720
-interval forces keep
-[  7]  92.01-93.01  sec  1.25 MBytes  10.4 Mbits/sec    0    718 KBytes       
-tcpi_snd_cwnd 508 tcpi_snd_mss 1448 tcpi_rtt 179090
-interval_len 0.993746 bytes_transferred 0
-interval forces keep
-[  7]  93.01-94.00  sec  0.00 Bytes  0.00 Mbits/sec    0    718 KBytes       
-sent 131072 bytes of 131072, total 82855352
-sent 131072 bytes of 131072, total 82986424
-sent 131072 bytes of 131072, total 83117496
-sent 131072 bytes of 131072, total 83248568
-sent 131072 bytes of 131072, total 83379640
-sent 131072 bytes of 131072, total 83510712
-sent 131072 bytes of 131072, total 83641784
-sent 131072 bytes of 131072, total 83772856
-sent 131072 bytes of 131072, total 83903928
-sent 131072 bytes of 131072, total 84035000
-sent 131072 bytes of 131072, total 84166072
-sent 131072 bytes of 131072, total 84297144
-sent 131072 bytes of 131072, total 84428216
-sent 131072 bytes of 131072, total 84559288
-sent 131072 bytes of 131072, total 84690360
-sent 131072 bytes of 131072, total 84821432
-sent 131072 bytes of 131072, total 84952504
-sent 131072 bytes of 131072, total 85083576
-sent 131072 bytes of 131072, total 85214648
-sent 131072 bytes of 131072, total 85345720
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 84711
-interval_len 1.036444 bytes_transferred 2621440
-interval forces keep
-[  7]  94.00-95.04  sec  2.50 MBytes  20.2 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 152232
-interval_len 0.961304 bytes_transferred 0
-interval forces keep
-[  7]  95.04-96.00  sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 85476792
-sent 131072 bytes of 131072, total 85607864
-sent 131072 bytes of 131072, total 85738936
-sent 131072 bytes of 131072, total 85870008
-sent 131072 bytes of 131072, total 86001080
-sent 131072 bytes of 131072, total 86132152
-sent 131072 bytes of 131072, total 86263224
-sent 131072 bytes of 131072, total 86394296
-sent 131072 bytes of 131072, total 86525368
-sent 131072 bytes of 131072, total 86656440
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 233294
-interval_len 1.003902 bytes_transferred 1310720
-interval forces keep
-[  7]  96.00-97.00  sec  1.25 MBytes  10.4 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 208589
-interval_len 1.003963 bytes_transferred 0
-interval forces keep
-[  7]  97.00-98.01  sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 186158
-interval_len 0.993694 bytes_transferred 0
-interval forces keep
-[  7]  98.01-99.00  sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 86787512
-sent 131072 bytes of 131072, total 86918584
-sent 131072 bytes of 131072, total 87049656
-sent 131072 bytes of 131072, total 87180728
-sent 131072 bytes of 131072, total 87311800
-sent 131072 bytes of 131072, total 87442872
-sent 131072 bytes of 131072, total 87573944
-sent 131072 bytes of 131072, total 87705016
-sent 131072 bytes of 131072, total 87836088
-sent 131072 bytes of 131072, total 87967160
-sent 131072 bytes of 131072, total 88098232
-sent 131072 bytes of 131072, total 88229304
-sent 131072 bytes of 131072, total 88360376
-sent 131072 bytes of 131072, total 88491448
-sent 131072 bytes of 131072, total 88622520
-sent 131072 bytes of 131072, total 88753592
-sent 131072 bytes of 131072, total 88884664
-sent 131072 bytes of 131072, total 89015736
-sent 131072 bytes of 131072, total 89146808
-sent 131072 bytes of 131072, total 89277880
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 49464
-interval_len 1.156798 bytes_transferred 2621440
-interval forces keep
-[  7]  99.00-100.16 sec  2.50 MBytes  18.1 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 152373
-interval_len 1.027441 bytes_transferred 0
-interval forces keep
-[  7] 100.16-101.19 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 89408952
-sent 131072 bytes of 131072, total 89540024
-sent 131072 bytes of 131072, total 89671096
-sent 131072 bytes of 131072, total 89802168
-sent 131072 bytes of 131072, total 89933240
-sent 131072 bytes of 131072, total 90064312
-sent 131072 bytes of 131072, total 90195384
-sent 131072 bytes of 131072, total 90326456
-sent 131072 bytes of 131072, total 90457528
-sent 131072 bytes of 131072, total 90588600
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 59375
-interval_len 0.818847 bytes_transferred 1310720
-interval forces keep
-[  7] 101.19-102.01 sec  1.25 MBytes  12.8 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 90719672
-sent 131072 bytes of 131072, total 90850744
-sent 131072 bytes of 131072, total 90981816
-sent 131072 bytes of 131072, total 91112888
-sent 131072 bytes of 131072, total 91243960
-sent 131072 bytes of 131072, total 91375032
-sent 131072 bytes of 131072, total 91506104
-sent 131072 bytes of 131072, total 91637176
-sent 131072 bytes of 131072, total 91768248
-sent 131072 bytes of 131072, total 91899320
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 94663
-interval_len 1.023312 bytes_transferred 1310720
-interval forces keep
-[  7] 102.01-103.03 sec  1.25 MBytes  10.2 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 239260
-interval_len 1.021795 bytes_transferred 0
-interval forces keep
-[  7] 103.03-104.05 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 92030392
-sent 131072 bytes of 131072, total 92161464
-sent 131072 bytes of 131072, total 92292536
-sent 131072 bytes of 131072, total 92423608
-sent 131072 bytes of 131072, total 92554680
-sent 131072 bytes of 131072, total 92685752
-sent 131072 bytes of 131072, total 92816824
-sent 131072 bytes of 131072, total 92947896
-sent 131072 bytes of 131072, total 93078968
-sent 131072 bytes of 131072, total 93210040
-sent 131072 bytes of 131072, total 93341112
-sent 131072 bytes of 131072, total 93472184
-sent 131072 bytes of 131072, total 93603256
-sent 131072 bytes of 131072, total 93734328
-sent 131072 bytes of 131072, total 93865400
-sent 131072 bytes of 131072, total 93996472
-sent 131072 bytes of 131072, total 94127544
-sent 131072 bytes of 131072, total 94258616
-sent 131072 bytes of 131072, total 94389688
-sent 131072 bytes of 131072, total 94520760
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 48685
-interval_len 0.950260 bytes_transferred 2621440
-interval forces keep
-[  7] 104.05-105.00 sec  2.50 MBytes  22.1 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 94651832
-sent 131072 bytes of 131072, total 94782904
-sent 131072 bytes of 131072, total 94913976
-sent 131072 bytes of 131072, total 95045048
-sent 131072 bytes of 131072, total 95176120
-sent 131072 bytes of 131072, total 95307192
-sent 131072 bytes of 131072, total 95438264
-sent 131072 bytes of 131072, total 95569336
-sent 131072 bytes of 131072, total 95700408
-sent 131072 bytes of 131072, total 95831480
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 103125
-interval_len 1.009010 bytes_transferred 1310720
-interval forces keep
-[  7] 105.00-106.01 sec  1.25 MBytes  10.4 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 123792
-interval_len 1.000774 bytes_transferred 0
-interval forces keep
-[  7] 106.01-107.01 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 95962552
-sent 131072 bytes of 131072, total 96093624
-sent 131072 bytes of 131072, total 96224696
-sent 131072 bytes of 131072, total 96355768
-sent 131072 bytes of 131072, total 96486840
-sent 131072 bytes of 131072, total 96617912
-sent 131072 bytes of 131072, total 96748984
-sent 131072 bytes of 131072, total 96880056
-sent 131072 bytes of 131072, total 97011128
-sent 131072 bytes of 131072, total 97142200
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 120700
-interval_len 0.990388 bytes_transferred 1310720
-interval forces keep
-[  7] 107.01-108.00 sec  1.25 MBytes  10.6 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 97273272
-sent 131072 bytes of 131072, total 97404344
-sent 131072 bytes of 131072, total 97535416
-sent 131072 bytes of 131072, total 97666488
-sent 131072 bytes of 131072, total 97797560
-sent 131072 bytes of 131072, total 97928632
-sent 131072 bytes of 131072, total 98059704
-sent 131072 bytes of 131072, total 98190776
-sent 131072 bytes of 131072, total 98321848
-sent 131072 bytes of 131072, total 98452920
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 152276
-interval_len 1.000834 bytes_transferred 1310720
-interval forces keep
-[  7] 108.00-109.00 sec  1.25 MBytes  10.5 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 98583992
-sent 131072 bytes of 131072, total 98715064
-sent 131072 bytes of 131072, total 98846136
-sent 131072 bytes of 131072, total 98977208
-sent 131072 bytes of 131072, total 99108280
-sent 131072 bytes of 131072, total 99239352
-sent 131072 bytes of 131072, total 99370424
-sent 131072 bytes of 131072, total 99501496
-sent 131072 bytes of 131072, total 99632568
-sent 131072 bytes of 131072, total 99763640
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 165888
-interval_len 1.001053 bytes_transferred 1310720
-interval forces keep
-[  7] 109.00-110.00 sec  1.25 MBytes  10.5 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 99894712
-sent 131072 bytes of 131072, total 100025784
-sent 131072 bytes of 131072, total 100156856
-sent 131072 bytes of 131072, total 100287928
-sent 131072 bytes of 131072, total 100419000
-sent 131072 bytes of 131072, total 100550072
-sent 131072 bytes of 131072, total 100681144
-sent 131072 bytes of 131072, total 100812216
-sent 131072 bytes of 131072, total 100943288
-sent 131072 bytes of 131072, total 101074360
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 162823
-interval_len 1.005610 bytes_transferred 1310720
-interval forces keep
-[  7] 110.00-111.01 sec  1.25 MBytes  10.4 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 142704
-interval_len 0.993737 bytes_transferred 0
-interval forces keep
-[  7] 111.01-112.00 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 136045
-interval_len 1.003876 bytes_transferred 0
-interval forces keep
-[  7] 112.00-113.01 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 228591
-interval_len 1.003959 bytes_transferred 0
-interval forces keep
-[  7] 113.01-114.01 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 101205432
-sent 131072 bytes of 131072, total 101336504
-sent 131072 bytes of 131072, total 101467576
-sent 131072 bytes of 131072, total 101598648
-sent 131072 bytes of 131072, total 101729720
-sent 131072 bytes of 131072, total 101860792
-sent 131072 bytes of 131072, total 101991864
-sent 131072 bytes of 131072, total 102122936
-sent 131072 bytes of 131072, total 102254008
-sent 131072 bytes of 131072, total 102385080
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 91988
-interval_len 0.993750 bytes_transferred 1310720
-interval forces keep
-[  7] 114.01-115.00 sec  1.25 MBytes  10.6 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 102516152
-sent 131072 bytes of 131072, total 102647224
-sent 131072 bytes of 131072, total 102778296
-sent 131072 bytes of 131072, total 102909368
-sent 131072 bytes of 131072, total 103040440
-sent 131072 bytes of 131072, total 103171512
-sent 131072 bytes of 131072, total 103302584
-sent 131072 bytes of 131072, total 103433656
-sent 131072 bytes of 131072, total 103564728
-sent 131072 bytes of 131072, total 103695800
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 179016
-interval_len 1.003887 bytes_transferred 1310720
-interval forces keep
-[  7] 115.00-116.01 sec  1.25 MBytes  10.4 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 103826872
-sent 131072 bytes of 131072, total 103957944
-sent 131072 bytes of 131072, total 104089016
-sent 131072 bytes of 131072, total 104220088
-sent 131072 bytes of 131072, total 104351160
-sent 131072 bytes of 131072, total 104482232
-sent 131072 bytes of 131072, total 104613304
-sent 131072 bytes of 131072, total 104744376
-sent 131072 bytes of 131072, total 104875448
-sent 131072 bytes of 131072, total 105006520
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 282680
-interval_len 0.993999 bytes_transferred 1310720
-interval forces keep
-[  7] 116.01-117.00 sec  1.25 MBytes  10.5 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 192921
-interval_len 1.003982 bytes_transferred 0
-interval forces keep
-[  7] 117.00-118.01 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 105137592
-sent 131072 bytes of 131072, total 105268664
-sent 131072 bytes of 131072, total 105399736
-sent 131072 bytes of 131072, total 105530808
-sent 131072 bytes of 131072, total 105661880
-sent 131072 bytes of 131072, total 105792952
-sent 131072 bytes of 131072, total 105924024
-sent 131072 bytes of 131072, total 106055096
-sent 131072 bytes of 131072, total 106186168
-sent 131072 bytes of 131072, total 106317240
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 172591
-interval_len 0.995899 bytes_transferred 1310720
-interval forces keep
-[  7] 118.01-119.00 sec  1.25 MBytes  10.5 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 296788
-interval_len 1.026230 bytes_transferred 0
-interval forces keep
-[  7] 119.00-120.03 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 106448312
-sent 131072 bytes of 131072, total 106579384
-sent 131072 bytes of 131072, total 106710456
-sent 131072 bytes of 131072, total 106841528
-sent 131072 bytes of 131072, total 106972600
-sent 131072 bytes of 131072, total 107103672
-sent 131072 bytes of 131072, total 107234744
-sent 131072 bytes of 131072, total 107365816
-sent 131072 bytes of 131072, total 107496888
-sent 131072 bytes of 131072, total 107627960
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 120731
-interval_len 1.021370 bytes_transferred 1310720
-interval forces keep
-[  7] 120.03-121.05 sec  1.25 MBytes  10.3 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 223517
-interval_len 0.951679 bytes_transferred 0
-interval forces keep
-[  7] 121.05-122.00 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 164334
-interval_len 1.098260 bytes_transferred 0
-interval forces keep
-[  7] 122.00-123.10 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 107759032
-sent 131072 bytes of 131072, total 107890104
-sent 131072 bytes of 131072, total 108021176
-sent 131072 bytes of 131072, total 108152248
-sent 131072 bytes of 131072, total 108283320
-sent 131072 bytes of 131072, total 108414392
-sent 131072 bytes of 131072, total 108545464
-sent 131072 bytes of 131072, total 108676536
-sent 131072 bytes of 131072, total 108807608
-sent 131072 bytes of 131072, total 108938680
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 166617
-interval_len 0.909626 bytes_transferred 1310720
-interval forces keep
-[  7] 123.10-124.01 sec  1.25 MBytes  11.5 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 184682
-interval_len 0.993715 bytes_transferred 0
-interval forces keep
-[  7] 124.01-125.00 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 109069752
-sent 131072 bytes of 131072, total 109200824
-sent 131072 bytes of 131072, total 109331896
-sent 131072 bytes of 131072, total 109462968
-sent 131072 bytes of 131072, total 109594040
-sent 131072 bytes of 131072, total 109725112
-sent 131072 bytes of 131072, total 109856184
-sent 131072 bytes of 131072, total 109987256
-sent 131072 bytes of 131072, total 110118328
-sent 131072 bytes of 131072, total 110249400
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 172314
-interval_len 1.003956 bytes_transferred 1310720
-interval forces keep
-[  7] 125.00-126.01 sec  1.25 MBytes  10.4 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 110380472
-sent 131072 bytes of 131072, total 110511544
-sent 131072 bytes of 131072, total 110642616
-sent 131072 bytes of 131072, total 110773688
-sent 131072 bytes of 131072, total 110904760
-sent 131072 bytes of 131072, total 111035832
-sent 131072 bytes of 131072, total 111166904
-sent 131072 bytes of 131072, total 111297976
-sent 131072 bytes of 131072, total 111429048
-sent 131072 bytes of 131072, total 111560120
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 69038
-interval_len 1.004024 bytes_transferred 1310720
-interval forces keep
-[  7] 126.01-127.01 sec  1.25 MBytes  10.4 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 182180
-interval_len 0.993653 bytes_transferred 0
-interval forces keep
-[  7] 127.01-128.00 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 111691192
-sent 131072 bytes of 131072, total 111822264
-sent 131072 bytes of 131072, total 111953336
-sent 131072 bytes of 131072, total 112084408
-sent 131072 bytes of 131072, total 112215480
-sent 131072 bytes of 131072, total 112346552
-sent 131072 bytes of 131072, total 112477624
-sent 131072 bytes of 131072, total 112608696
-sent 131072 bytes of 131072, total 112739768
-sent 131072 bytes of 131072, total 112870840
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 219801
-interval_len 1.003947 bytes_transferred 1310720
-interval forces keep
-[  7] 128.00-129.01 sec  1.25 MBytes  10.4 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 367945
-interval_len 1.052993 bytes_transferred 0
-interval forces keep
-[  7] 129.01-130.06 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 113001912
-sent 131072 bytes of 131072, total 113132984
-sent 131072 bytes of 131072, total 113264056
-sent 131072 bytes of 131072, total 113395128
-sent 131072 bytes of 131072, total 113526200
-sent 131072 bytes of 131072, total 113657272
-sent 131072 bytes of 131072, total 113788344
-sent 131072 bytes of 131072, total 113919416
-sent 131072 bytes of 131072, total 114050488
-sent 131072 bytes of 131072, total 114181560
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 191810
-interval_len 0.944629 bytes_transferred 1310720
-interval forces keep
-[  7] 130.06-131.01 sec  1.25 MBytes  11.1 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 232374
-interval_len 1.003864 bytes_transferred 0
-interval forces keep
-[  7] 131.01-132.01 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-tcpi_snd_cwnd 537 tcpi_snd_mss 1448 tcpi_rtt 196385
-interval_len 0.993754 bytes_transferred 0
-interval forces keep
-[  7] 132.01-133.00 sec  0.00 Bytes  0.00 Mbits/sec    0    759 KBytes       
-sent 131072 bytes of 131072, total 114312632
-sent 131072 bytes of 131072, total 114443704
-sent 131072 bytes of 131072, total 114574776
-sent 131072 bytes of 131072, total 114705848
-sent 131072 bytes of 131072, total 114836920
-sent 131072 bytes of 131072, total 114967992
-sent 131072 bytes of 131072, total 115099064
-sent 131072 bytes of 131072, total 115230136
-sent 131072 bytes of 131072, total 115361208
-sent 131072 bytes of 131072, total 115492280
-tcpi_snd_cwnd 567 tcpi_snd_mss 1448 tcpi_rtt 101730
-interval_len 1.153253 bytes_transferred 1310720
-interval forces keep
-[  7] 133.00-134.16 sec  1.25 MBytes  9.09 Mbits/sec    0    802 KBytes       
-sent 131072 bytes of 131072, total 115623352
-sent 131072 bytes of 131072, total 115754424
-sent 131072 bytes of 131072, total 115885496
-sent 131072 bytes of 131072, total 116016568
-sent 131072 bytes of 131072, total 116147640
-sent 131072 bytes of 131072, total 116278712
-sent 131072 bytes of 131072, total 116409784
-sent 131072 bytes of 131072, total 116540856
-sent 131072 bytes of 131072, total 116671928
-sent 131072 bytes of 131072, total 116803000
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 200519
-interval_len 0.844398 bytes_transferred 1310720
-interval forces keep
-[  7] 134.16-135.00 sec  1.25 MBytes  12.4 Mbits/sec    0    908 KBytes       
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 213593
-interval_len 1.009257 bytes_transferred 0
-interval forces keep
-[  7] 135.00-136.01 sec  0.00 Bytes  0.00 Mbits/sec    0    908 KBytes       
-sent 131072 bytes of 131072, total 116934072
-sent 131072 bytes of 131072, total 117065144
-sent 131072 bytes of 131072, total 117196216
-sent 131072 bytes of 131072, total 117327288
-sent 131072 bytes of 131072, total 117458360
-sent 131072 bytes of 131072, total 117589432
-sent 131072 bytes of 131072, total 117720504
-sent 131072 bytes of 131072, total 117851576
-sent 131072 bytes of 131072, total 117982648
-sent 131072 bytes of 131072, total 118113720
-sent 131072 bytes of 131072, total 118244792
-sent 131072 bytes of 131072, total 118375864
-sent 131072 bytes of 131072, total 118506936
-sent 131072 bytes of 131072, total 118638008
-sent 131072 bytes of 131072, total 118769080
-sent 131072 bytes of 131072, total 118900152
-sent 131072 bytes of 131072, total 119031224
-sent 131072 bytes of 131072, total 119162296
-sent 131072 bytes of 131072, total 119293368
-sent 131072 bytes of 131072, total 119424440
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 207101
-interval_len 0.990664 bytes_transferred 2621440
-interval forces keep
-[  7] 136.01-137.00 sec  2.50 MBytes  21.2 Mbits/sec    0    908 KBytes       
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 214440
-interval_len 1.048686 bytes_transferred 0
-interval forces keep
-[  7] 137.00-138.05 sec  0.00 Bytes  0.00 Mbits/sec    0    908 KBytes       
-sent 131072 bytes of 131072, total 119555512
-sent 131072 bytes of 131072, total 119686584
-sent 131072 bytes of 131072, total 119817656
-sent 131072 bytes of 131072, total 119948728
-sent 131072 bytes of 131072, total 120079800
-sent 131072 bytes of 131072, total 120210872
-sent 131072 bytes of 131072, total 120341944
-sent 131072 bytes of 131072, total 120473016
-sent 131072 bytes of 131072, total 120604088
-sent 131072 bytes of 131072, total 120735160
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 300989
-interval_len 1.024639 bytes_transferred 1310720
-interval forces keep
-[  7] 138.05-139.07 sec  1.25 MBytes  10.2 Mbits/sec    0    908 KBytes       
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 206569
-interval_len 1.021673 bytes_transferred 0
-interval forces keep
-[  7] 139.07-140.10 sec  0.00 Bytes  0.00 Mbits/sec    0    908 KBytes       
-sent 131072 bytes of 131072, total 120866232
-sent 131072 bytes of 131072, total 120997304
-sent 131072 bytes of 131072, total 121128376
-sent 131072 bytes of 131072, total 121259448
-sent 131072 bytes of 131072, total 121390520
-sent 131072 bytes of 131072, total 121521592
-sent 131072 bytes of 131072, total 121652664
-sent 131072 bytes of 131072, total 121783736
-sent 131072 bytes of 131072, total 121914808
-sent 131072 bytes of 131072, total 122045880
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 257373
-interval_len 0.907115 bytes_transferred 1310720
-interval forces keep
-[  7] 140.10-141.00 sec  1.25 MBytes  11.6 Mbits/sec    0    908 KBytes       
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 157821
-interval_len 1.161588 bytes_transferred 0
-interval forces keep
-[  7] 141.00-142.16 sec  0.00 Bytes  0.00 Mbits/sec    0    908 KBytes       
-sent 131072 bytes of 131072, total 122176952
-sent 131072 bytes of 131072, total 122308024
-sent 131072 bytes of 131072, total 122439096
-sent 131072 bytes of 131072, total 122570168
-sent 131072 bytes of 131072, total 122701240
-sent 131072 bytes of 131072, total 122832312
-sent 131072 bytes of 131072, total 122963384
-sent 131072 bytes of 131072, total 123094456
-sent 131072 bytes of 131072, total 123225528
-sent 131072 bytes of 131072, total 123356600
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 254411
-interval_len 0.839807 bytes_transferred 1310720
-interval forces keep
-[  7] 142.16-143.00 sec  1.25 MBytes  12.5 Mbits/sec    0    908 KBytes       
-tcpi_snd_cwnd 642 tcpi_snd_mss 1448 tcpi_rtt 987544
-interval_len 1.000917 bytes_transferred 0
-interval forces keep
-[  7] 143.00-144.00 s
+[  7]   0.00-1.00   sec   411 KBytes  3.37 Mbits/sec    1   25.5 KBytes       
+[  7]   1.00-2.00   sec   255 KBytes  2.09 Mbits/sec    0   25.5 KBytes       
+[  7]   2.00-3.00   sec   191 KBytes  1.56 Mbits/sec    0   25.5 KBytes       
+[  7]   3.00-4.00   sec   191 KBytes  1.56 Mbits/sec    0   25.5 KBytes       
+[  7]   4.00-5.00   sec   255 KBytes  2.08 Mbits/sec    0   25.5 KBytes       
+[  7]   5.00-6.00   sec   382 KBytes  3.13 Mbits/sec    0   43.8 KBytes       
+[  7]   6.00-7.00   sec   573 KBytes  4.69 Mbits/sec    0   89.1 KBytes       
+[  7]   7.00-8.00   sec   954 KBytes  7.82 Mbits/sec    0   89.1 KBytes       
+[  7]   8.00-9.00   sec   382 KBytes  3.13 Mbits/sec    0   89.1 KBytes       
+[  7]   9.00-10.00  sec   573 KBytes  4.69 Mbits/sec    0   89.1 KBytes       
+[  7]  10.00-11.00  sec   382 KBytes  3.13 Mbits/sec    0   89.1 KBytes       
+[  7]  11.00-12.00  sec   191 KBytes  1.56 Mbits/sec    0   89.1 KBytes       
+[  7]  12.00-13.02  sec   191 KBytes  1.54 Mbits/sec    0   89.1 KBytes       
+[  7]  13.02-14.01  sec  0.00 Bytes  0.00 Mbits/sec    0   89.1 KBytes       
+[  7]  14.01-15.04  sec   382 KBytes  3.04 Mbits/sec    0   89.1 KBytes       
+[  7]  15.04-16.01  sec   191 KBytes  1.60 Mbits/sec    0   89.1 KBytes       
+[  7]  16.01-17.00  sec  0.00 Bytes  0.00 Mbits/sec    0   89.1 KBytes       
+[  7]  17.00-18.00  sec   191 KBytes  1.56 Mbits/sec    0   89.1 KBytes       
+[  7]  18.00-19.00  sec   382 KBytes  3.13 Mbits/sec    0   89.1 KBytes       
+[  7]  19.00-20.00  sec  1018 KBytes  8.34 Mbits/sec    0   89.1 KBytes       
+[  7]  20.00-21.00  sec  1.06 MBytes  8.85 Mbits/sec    0    132 KBytes       
+[  7]  21.00-22.01  sec   318 KBytes  2.59 Mbits/sec    0    132 KBytes       
+[  7]  22.01-23.02  sec  0.00 Bytes  0.00 Mbits/sec    0    132 KBytes       
+[  7]  23.02-24.00  sec   954 KBytes  7.94 Mbits/sec    0    132 KBytes       
+[  7]  24.00-25.00  sec  1.86 MBytes  15.6 Mbits/sec    0    148 KBytes       
+[  7]  25.00-26.00  sec  2.17 MBytes  18.2 Mbits/sec    0    148 KBytes       
+[  7]  26.00-27.00  sec  2.24 MBytes  18.8 Mbits/sec    0    148 KBytes       
+[  7]  27.00-28.00  sec  2.17 MBytes  18.2 Mbits/sec    0    148 KBytes       
+[  7]  28.00-29.00  sec  2.24 MBytes  18.8 Mbits/sec    0    148 KBytes       
+[  7]  29.00-30.00  sec  2.55 MBytes  21.4 Mbits/sec    0    148 KBytes       
+[  7]  30.00-31.00  sec  2.17 MBytes  18.2 Mbits/sec    0    148 KBytes       
+[  7]  31.00-32.00  sec  4.29 MBytes  36.0 Mbits/sec    0    356 KBytes       
+[  7]  32.00-33.00  sec  4.47 MBytes  37.5 Mbits/sec    0    356 KBytes       
+[  7]  33.00-34.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  34.00-35.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  35.00-36.00  sec  4.47 MBytes  37.5 Mbits/sec    0    356 KBytes       
+[  7]  36.00-37.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  37.00-38.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  38.00-39.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  39.00-40.00  sec  2.98 MBytes  24.9 Mbits/sec    0    356 KBytes       
+[  7]  40.00-41.00  sec  2.24 MBytes  18.8 Mbits/sec    0    356 KBytes       
+[  7]  41.00-42.00  sec  1.49 MBytes  12.5 Mbits/sec    0    356 KBytes       
+[  7]  42.00-43.00  sec  2.24 MBytes  18.8 Mbits/sec    0    356 KBytes       
+[  7]  43.00-44.00  sec  1.49 MBytes  12.5 Mbits/sec    0    356 KBytes       
+[  7]  44.00-45.00  sec  2.24 MBytes  18.8 Mbits/sec    0    356 KBytes       
+[  7]  45.00-46.00  sec  2.24 MBytes  18.8 Mbits/sec    0    356 KBytes       
+[  7]  46.00-47.01  sec  2.24 MBytes  18.6 Mbits/sec    0    356 KBytes       
+[  7]  47.01-48.00  sec  2.98 MBytes  25.2 Mbits/sec    0    356 KBytes       
+[  7]  48.00-49.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  49.00-50.00  sec  2.98 MBytes  25.0 Mbits/sec    0    356 KBytes       
+[  7]  50.00-51.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  51.00-52.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  52.00-53.00  sec  2.24 MBytes  18.8 Mbits/sec    0    356 KBytes       
+[  7]  53.00-54.00  sec  2.98 MBytes  25.0 Mbits/sec    0    356 KBytes       
+[  7]  54.00-55.00  sec  2.24 MBytes  18.8 Mbits/sec    0    356 KBytes       
+[  7]  55.00-56.00  sec  2.24 MBytes  18.8 Mbits/sec    0    356 KBytes       
+[  7]  56.00-57.00  sec  2.24 MBytes  18.8 Mbits/sec    0    356 KBytes       
+[  7]  57.00-58.00  sec  2.98 MBytes  25.0 Mbits/sec    0    356 KBytes       
+[  7]  58.00-59.00  sec  4.47 MBytes  37.6 Mbits/sec    0    356 KBytes       
+[  7]  59.00-60.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  60.00-61.00  sec  3.73 MBytes  31.3 Mbits/sec    0    356 KBytes       
+[  7]  61.00-62.00  sec   764 KBytes  6.25 Mbits/sec    0    178 KBytes       
+[  7]  62.00-63.00  sec   764 KBytes  6.26 Mbits/sec    0    178 KBytes       
+[  7]  63.00-64.00  sec   764 KBytes  6.25 Mbits/sec    0    178 KBytes       
+[  7]  64.00-65.00  sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7]  65.00-66.01  sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7]  66.01-67.00  sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7]  67.00-68.00  sec   764 KBytes  6.28 Mbits/sec    0    178 KBytes       
+[  7]  68.00-69.00  sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7]  69.00-70.00  sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7]  70.00-71.00  sec   764 KBytes  6.27 Mbits/sec    0    178 KBytes       
+[  7]  71.00-72.01  sec   764 KBytes  6.20 Mbits/sec    0    178 KBytes       
+[  7]  72.01-73.00  sec  1.49 MBytes  12.6 Mbits/sec    0    178 KBytes       
+[  7]  73.00-74.00  sec  1.49 MBytes  12.6 Mbits/sec    0    178 KBytes       
+[  7]  74.00-75.00  sec   764 KBytes  6.26 Mbits/sec    0    178 KBytes       
+[  7]  75.00-76.00  sec   764 KBytes  6.25 Mbits/sec    0    178 KBytes       
+[  7]  76.00-77.00  sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes       
+[  7]  77.00-78.00  sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7]  78.00-79.00  sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7]  79.00-80.00  sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7]  80.00-81.00  sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes       
+[  7]  81.00-82.00  sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7]  82.00-83.00  sec  2.24 MBytes  18.7 Mbits/sec    0    178 KBytes       
+[  7]  83.00-84.00  sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7]  84.00-85.00  sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7]  85.00-86.00  sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7]  86.00-87.00  sec   764 KBytes  6.27 Mbits/sec    0    178 KBytes       
+[  7]  87.00-88.00  sec   764 KBytes  6.25 Mbits/sec    0    178 KBytes       
+[  7]  88.00-89.01  sec  2.24 MBytes  18.6 Mbits/sec    0    178 KBytes       
+[  7]  89.01-90.00  sec   764 KBytes  6.32 Mbits/sec    0    178 KBytes       
+[  7]  90.00-91.00  sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7]  91.00-92.00  sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7]  92.00-93.00  sec   764 KBytes  6.27 Mbits/sec    0    178 KBytes       
+[  7]  93.00-94.00  sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7]  94.00-95.01  sec   764 KBytes  6.17 Mbits/sec    0    178 KBytes       
+[  7]  95.01-96.01  sec  1.49 MBytes  12.6 Mbits/sec    0    178 KBytes       
+[  7]  96.01-97.00  sec  2.24 MBytes  18.9 Mbits/sec    0    178 KBytes       
+[  7]  97.00-98.00  sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7]  98.00-99.00  sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7]  99.00-100.00 sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7] 100.00-101.00 sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7] 101.00-102.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 102.00-103.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 103.00-104.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 104.00-105.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 105.00-106.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 106.00-107.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 107.00-108.00 sec   764 KBytes  6.25 Mbits/sec    0    178 KBytes       
+[  7] 108.00-109.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 109.00-110.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 110.00-111.00 sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes       
+[  7] 111.00-112.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 112.00-113.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 113.00-114.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 114.00-115.00 sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes       
+[  7] 115.00-116.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 116.00-117.00 sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes       
+[  7] 117.00-118.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 118.00-119.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 119.00-120.00 sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7] 120.00-121.00 sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes       
+[  7] 121.00-122.00 sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7] 122.00-123.00 sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7] 123.00-124.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 124.00-125.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 125.00-126.00 sec  3.73 MBytes  31.3 Mbits/sec    0    178 KBytes       
+[  7] 126.00-127.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 127.00-128.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 128.00-129.00 sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes       
+[  7] 129.00-130.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 130.00-131.01 sec  2.98 MBytes  24.9 Mbits/sec    0    178 KBytes       
+[  7] 131.01-132.00 sec  2.24 MBytes  18.9 Mbits/sec    0    178 KBytes       
+[  7] 132.00-133.00 sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes       
+[  7] 133.00-134.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 134.00-135.00 sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7] 135.00-136.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 136.00-137.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 137.00-138.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 138.00-139.00 sec  2.98 MBytes  25.0 Mbits/sec    0    178 KBytes       
+[  7] 139.00-140.01 sec   764 KBytes  6.23 Mbits/sec    0    178 KBytes       
+[  7] 140.01-141.00 sec  1.49 MBytes  12.6 Mbits/sec    0    178 KBytes       
+[  7] 141.00-142.00 sec  1.49 MBytes  12.5 Mbits/sec    0    178 KBytes       
+[  7] 142.00-143.02 sec   764 KBytes  6.14 Mbits/sec    0    178 KBytes       
+[  7] 143.02-144.01 sec   764 KBytes  6.30 Mbits/sec    0    178 KBytes       
+[  7] 144.01-145.01 sec  0.00 Bytes  0.00 Mbits/sec    0    178 KBytes       
+[  7] 145.01-146.01 sec   764 KBytes  6.25 Mbits/sec    0    178 KBytes       
+[  7] 146.01-147.00 sec   764 KBytes  6.29 Mbits/sec    0    178 KBytes       
+[  7] 147.00-148.00 sec   764 KBytes  6.24 Mbits/sec    0    178 KBytes       
+[  7] 148.00-149.00 sec  1.49 MBytes  12.6 Mbits/sec    0    178 KBytes       
+[  7] 149.00-150.00 sec  0.00 Bytes  0.00 Mbits/sec    1   1.41 KBytes       
+[  7] 150.00-151.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 151.00-152.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 152.00-153.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 153.00-154.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 154.00-155.01 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 155.01-156.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 156.00-157.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 157.00-158.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 158.00-159.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 159.00-160.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 160.00-161.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 161.00-162.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 162.00-163.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 163.00-164.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 164.00-165.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 165.00-166.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 166.00-167.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 167.00-168.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 168.00-169.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 169.00-170.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 170.00-171.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 171.00-172.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 172.00-173.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 173.00-174.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 174.00-175.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 175.00-176.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 176.00-177.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 177.00-178.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 178.00-179.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 179.00-180.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 180.00-181.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 181.00-182.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 182.00-183.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 183.00-184.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 184.00-185.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 185.00-186.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 186.00-187.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 187.00-188.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 188.00-189.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 189.00-190.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 190.00-191.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 191.00-192.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 192.00-193.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 193.00-194.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 194.00-195.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 195.00-196.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 196.00-197.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 197.00-198.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 198.00-199.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 199.00-200.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 200.00-201.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 201.00-202.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 202.00-203.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 203.00-204.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 204.00-205.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 205.00-206.00 sec  0.00 Bytes  0.00 Mbits/sec    0   1.41 KBytes       
+[  7] 206.0

@@ -59,7 +59,7 @@ class DumbbellTopo(Topo):
 
 
 
-def execute(algo='reno', duration=100, delay=25):
+def execute(algo='reno', duration=500, delay=250):
 
     set_tcp_congestion_control(algo)
 
@@ -84,12 +84,12 @@ def execute(algo='reno', duration=100, delay=25):
     processes[r_2] = r_2.popen(f'nohup iperf3 -s -p 2222 -i 1 &', shell=True)
 
     # Start source 1
-    processes[s_1] = s_1.popen(f'nohup iperf3 -V -4 -i 1 -f m -d -t {200} -c {r_1.IP()} -p 1111 > {algo}/s1.txt &', shell=True)
+    processes[s_1] = s_1.popen(f'nohup iperf3 -4 -i 1 -f m -t {duration} -c {r_1.IP()} -p 1111 > {algo}/s1.txt &', shell=True)
 
     # Start source 2
-    sleep(50)
+    sleep(delay)
     duration -= delay
-    processes[s_2] = s_2.popen(f'nohup iperf3 -V -4 -i 1 -f m -d -t {150} -c {r_2.IP()} -p 2222 > {algo}/s2.txt &', shell=True)
+    processes[s_2] = s_2.popen(f'nohup iperf3 -4 -i 1 -f m -t {duration} -c {r_2.IP()} -p 2222 > {algo}/s2.txt &', shell=True)
 
     sleep(150)
 
