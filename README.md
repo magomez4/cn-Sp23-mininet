@@ -10,6 +10,11 @@ UT - Computer Networks - Spring 2023
 sudo python3 congestion_control.py
 ```
 
+- Plotting
+```
+python3 plot_output.py
+```
+
 - Cleanup
 ```
 sudo mn -c
