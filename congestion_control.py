@@ -84,13 +84,14 @@ def execute(algo='reno', duration=100, delay=25):
     processes[r_2] = r_2.popen(f'nohup iperf3 -s -p 2222 -i 1 &', shell=True)
 
     # Start source 1
-    processes[s_1] = s_1.popen(f'nohup iperf3 --forceflush -c {r_1.IP()} -p 1111 -t {duration} > {algo}/s1.txt &', shell=True)
-    w_1 = s_1.popen(f'watch -n 1 \'ss --tcp -i dst {r_1.IP()}', shell=True)
+    processes[s_1] = s_1.popen(f'nohup iperf3 -V -4 -i 1 -f m -d -t {200} -c {r_1.IP()} -p 1111 > {algo}/s1.txt &', shell=True)
 
     # Start source 2
-    sleep(delay)
-    processes[s_2] = s_2.popen(f'nohup iperf3 --forceflush -c {r_2.IP()} -p 2222 -t {duration - delay} > {algo}/s2.txt &', shell=True)
-    w_2 = s_2.popen(f'watch -n 1 \'ss --tcp -i dst {r_2.IP()}', shell=True)
+    sleep(50)
+    duration -= delay
+    processes[s_2] = s_2.popen(f'nohup iperf3 -V -4 -i 1 -f m -d -t {150} -c {r_2.IP()} -p 2222 > {algo}/s2.txt &', shell=True)
+
+    sleep(150)
 
     # Wait for all processes to finish
     processes[s_1].wait()
@@ -101,11 +102,6 @@ def execute(algo='reno', duration=100, delay=25):
 
     processes[r_1].wait()
     processes[r_2].wait()
-
-    w_1.terminate()
-    w_2.terminate()
-    w_1.wait()
-    w_2.wait()
 
     net.stop()
 
