@@ -12,5 +12,5 @@ sudo python3 congestion_control.py
 
 - Cleanup
 ```
-sudo mn -c"
+sudo mn -c
 ```
