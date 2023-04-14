@@ -51,7 +51,7 @@ def plot_congestion(file_name):
             style='-')
     plt.ylim(0)
     plt.xlim(0)
-    plt.savefig(f'plots/congestion-{file_name}.png', bbox_inches='tight')
+    plt.savefig(f'{file_name}-congestion.png', bbox_inches='tight')
 
 def plot_bandwidth(file_name):
     data = [row.__dict__ for row in read_output_file(file_name)]
@@ -64,12 +64,9 @@ def plot_bandwidth(file_name):
             style='-')
     plt.ylim(0)
     plt.xlim(0)
-    plt.savefig(f'plots/bandwidth-{file_name}.png', bbox_inches='tight')
+    plt.savefig(f'{file_name}-bandwidth.png', bbox_inches='tight')
 
 if __name__ == '__main__':
     plt.rcParams["figure.figsize"] = (16,8)
-    plot_congestion('client.txt')
-    plot_bandwidth('client.txt')
-    plot_congestion('server.txt')
-    plot_bandwidth('server.txt')
+    plot_congestion('reno/r1.txt')
     
