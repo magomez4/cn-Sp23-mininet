@@ -95,6 +95,7 @@ def plot_bandwidth(algo):
     plt.xlim(0)
     plt.savefig(f'{algo}/bandwidth.png', bbox_inches='tight')
 
+
 if __name__ == '__main__':
     algorithm = 'reno' if len(sys.argv) <= 1 else sys.argv[1]
     print(f'Plotting algorithm {algorithm}')
@@ -102,4 +103,3 @@ if __name__ == '__main__':
     plt.rcParams["figure.figsize"] = (16,8)
     plot_bandwidth(algorithm)
     plot_congestion(algorithm)
-    
