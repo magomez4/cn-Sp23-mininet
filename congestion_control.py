@@ -112,8 +112,8 @@ def execute(algo='reno', duration=500, delay=250):
 
 if __name__ == '__main__':
     algorithm = 'reno' if len(sys.argv) <= 1 else sys.argv[1]
-    duration = 500 if len(sys.argv) <= 2 else sys.argv[2]
-    delay = 250 if len(sys.argv) <= 3 else sys.argv[3]
+    duration = 500 if len(sys.argv) <= 2 else int(sys.argv[2])
+    delay = 250 if len(sys.argv) <= 3 else int(sys.argv[3])
 
     print(f'Using {algorithm} with duration {duration} and delay {delay}')
 
