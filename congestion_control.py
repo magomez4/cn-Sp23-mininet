@@ -95,7 +95,7 @@ def execute(algo='reno', duration=500, delay=250):
     processes[s_2] = s_2.popen(
         f'nohup iperf3 -4 -i 1 -f m -t {duration} -c {r_2.IP()} -p 2222 > {algo}/s2.txt &', shell=True)
 
-    sleep(duration)
+    sleep(duration + 100)
 
     # Wait for all processes to finish
     processes[s_1].wait()
