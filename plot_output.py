@@ -51,10 +51,10 @@ def read_output_file(file_name, offset=0):
             yield row
 
 
-def plot_congestion(algo):
+def plot_congestion(algo, delay):
     s1 = [row.__dict__ for row in read_output_file(f'{algo}/s1.txt')]
     s2 = [row.__dict__ for row in read_output_file(
-        f'{algo}/s2.txt', offset=250)]
+        f'{algo}/s2.txt', offset=delay)]
     df = pd.DataFrame(data=s1)
     ax = df.plot(kind='line',
                  x='interval_end',
@@ -73,10 +73,10 @@ def plot_congestion(algo):
     plt.savefig(f'{algo}/cwnd.png', bbox_inches='tight')
 
 
-def plot_bandwidth(algo):
+def plot_bandwidth(algo, dealy):
     s1 = [row.__dict__ for row in read_output_file(f'{algo}/s1.txt')]
     s2 = [row.__dict__ for row in read_output_file(
-        f'{algo}/s2.txt', offset=250)]
+        f'{algo}/s2.txt', offset=delay)]
     df = pd.DataFrame(data=s1)
     ax = df.plot(kind='line',
                  x='interval_end',
@@ -98,8 +98,9 @@ def plot_bandwidth(algo):
 
 if __name__ == '__main__':
     algorithm = 'reno' if len(sys.argv) <= 1 else sys.argv[1]
-    print(f'Plotting algorithm {algorithm}')
+    delay = 250 if len(sys.argv) <= 2 else int(sys.argv[2])
+    print(f'Plotting algorithm {algorithm} widh delay {delay}')
 
     plt.rcParams["figure.figsize"] = (16,8)
-    plot_bandwidth(algorithm)
-    plot_congestion(algorithm)
+    plot_bandwidth(algorithm, delay)
+    plot_congestion(algorithm, delay)
