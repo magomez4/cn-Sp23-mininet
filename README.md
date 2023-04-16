@@ -7,12 +7,12 @@ UT - Computer Networks - Spring 2023
 
 - Running
 ```
-sudo python3 congestion_control.py
+sudo python3 congestion_control.py reno 1000 250
 ```
 
 - Plotting
 ```
-python3 plot_output.py
+python3 plot_output.py reno
 ```
 
 - Cleanup
